@@ -1,0 +1,31 @@
+﻿<Window x:Class="TreeViewDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:myTreeView="clr-namespace:TreeViewDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TreeView x:Name="tvProperty" HorizontalAlignment="Left" Height="195"  VerticalAlignment="Top" Width="145">
+            <!--设置treeview背景-->
+            <TreeView.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF05F5F" Offset="0"/>
+                    <GradientStop Color="#FFF0A3A3" Offset="1"/>
+                </LinearGradientBrush>
+            </TreeView.Background>
+            <!--加载treeview数据-->
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate DataType="{x:Type myTreeView:TreeViewViewModel}" ItemsSource="{Binding Path=Children}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" Text="{Binding DisplayName}" Foreground="White" FontSize="14"/>
+                        <StackPanel.ToolTip>
+                            <TextBlock VerticalAlignment="Center" Text="{Binding Name}" TextWrapping="Wrap" MaxWidth="200px" FontSize="14"/>
+                        </StackPanel.ToolTip>
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+    </Grid>
+</Window>
