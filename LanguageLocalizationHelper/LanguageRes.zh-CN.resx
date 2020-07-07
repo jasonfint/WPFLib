@@ -1,0 +1,1724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>关于我们</value>
+  </data>
+  <data name="Auth" xml:space="preserve">
+    <value>Lic授权</value>
+  </data>
+  <data name="BlackScreen" xml:space="preserve">
+    <value>黑屏肃静</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取  消</value>
+  </data>
+  <data name="CheckRun" xml:space="preserve">
+    <value>程序已在运行，请勿重复运行！</value>
+  </data>
+  <data name="ChexkRunTitle" xml:space="preserve">
+    <value>检测运行</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>系统设置</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>请到智慧云教育软件安装目录下Error文件夹中查看错误日志！</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>程序崩溃处理</value>
+  </data>
+  <data name="FcInfoLose" xml:space="preserve">
+    <value>未能获取到FC平台信息！</value>
+  </data>
+  <data name="ForbidMouseAndKeyboard" xml:space="preserve">
+    <value>禁用键鼠</value>
+  </data>
+  <data name="ForbidNetwork" xml:space="preserve">
+    <value>禁止上网</value>
+  </data>
+  <data name="ForbidUSB" xml:space="preserve">
+    <value>禁用USB</value>
+  </data>
+  <data name="FunctionConfig" xml:space="preserve">
+    <value>功能设置</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="HelpCenter" xml:space="preserve">
+    <value>帮助中心</value>
+  </data>
+  <data name="Homework" xml:space="preserve">
+    <value>作业空间</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>语言：</value>
+  </data>
+  <data name="LinkError" xml:space="preserve">
+    <value>连接异常，是否切换离线登录？</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>登  录</value>
+  </data>
+  <data name="LoginFCFail" xml:space="preserve">
+    <value>FC平台登录失败</value>
+  </data>
+  <data name="Logining" xml:space="preserve">
+    <value>登录验证中</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>最小化</value>
+  </data>
+  <data name="MyCloud" xml:space="preserve">
+    <value>我的云盘</value>
+  </data>
+  <data name="NullAccountOrPassword" xml:space="preserve">
+    <value>用户名或密码为空！</value>
+  </data>
+  <data name="NullCloudInfo" xml:space="preserve">
+    <value>未能获取到云端地址！</value>
+  </data>
+  <data name="NullSelectedVM" xml:space="preserve">
+    <value>您选择的虚拟机未上线！</value>
+  </data>
+  <data name="NullTCAndVM" xml:space="preserve">
+    <value>当前无终端和虚拟机在线</value>
+  </data>
+  <data name="NullTeacherInfo" xml:space="preserve">
+    <value>未能获取到教师信息！</value>
+  </data>
+  <data name="NullToken" xml:space="preserve">
+    <value>未能获取到登录信息！</value>
+  </data>
+  <data name="NullVmWithFileDistribute" xml:space="preserve">
+    <value>无虚拟机上线，无法使用文件分发功能！</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>离线</value>
+  </data>
+  <data name="OfflineLogin" xml:space="preserve">
+    <value>离线登录</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>确  定</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="OnlineTest" xml:space="preserve">
+    <value>在线考试</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value> 密码</value>
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>人</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>退出登录</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="ResourceShare" xml:space="preserve">
+    <value>资源共享</value>
+  </data>
+  <data name="RestartAllVM" xml:space="preserve">
+    <value>注意：您正在重启所有虚拟机，是否继续？</value>
+  </data>
+  <data name="Restarting" xml:space="preserve">
+    <value>正在重启，请稍后......</value>
+  </data>
+  <data name="RestartPartVm" xml:space="preserve">
+    <value>注意：您正在重启部分虚拟机，是否继续？</value>
+  </data>
+  <data name="RestartVmNULL" xml:space="preserve">
+    <value>号终端的虚拟机未启动！</value>
+  </data>
+  <data name="RestartVmPostfix" xml:space="preserve">
+    <value>号虚拟机，是否继续？</value>
+  </data>
+  <data name="RestartVmPrefix" xml:space="preserve">
+    <value>注意：重启</value>
+  </data>
+  <data name="ScreenReplayWithBroadcast" xml:space="preserve">
+    <value>屏幕广播的同时无法使用屏幕转播！</value>
+  </data>
+  <data name="SendCmd" xml:space="preserve">
+    <value>即将重启，请您稍候。</value>
+  </data>
+  <data name="SignInWithScreenBroadcast" xml:space="preserve">
+    <value>屏幕广播的同时无法使用电子签到！</value>
+  </data>
+  <data name="SignInWithStudentShow" xml:space="preserve">
+    <value>学生演示的同时无法使用电子签到！</value>
+  </data>
+  <data name="Smoke" xml:space="preserve">
+    <value>烟雾</value>
+  </data>
+  <data name="TotalStudents" xml:space="preserve">
+    <value>上课总人数</value>
+  </data>
+  <data name="UserLogin" xml:space="preserve">
+    <value>用户登录</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value> 用户名</value>
+  </data>
+  <data name="WrongAccountOrPassword" xml:space="preserve">
+    <value>用户名或密码错误！</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>加  入</value>
+  </data>
+  <data name="AddedSameItem" xml:space="preserve">
+    <value>已经添加了相同的项！</value>
+  </data>
+  <data name="AddFile" xml:space="preserve">
+    <value>添加文件</value>
+  </data>
+  <data name="AddingOrder" xml:space="preserve">
+    <value>正在加入编号……</value>
+  </data>
+  <data name="AddOrder" xml:space="preserve">
+    <value>加入编号</value>
+  </data>
+  <data name="AddOrderFail" xml:space="preserve">
+    <value>加入编号失败！</value>
+  </data>
+  <data name="AddOrderSuccess" xml:space="preserve">
+    <value>加入编号成功！</value>
+  </data>
+  <data name="AddOrderTerminalIp" xml:space="preserve">
+    <value>追加编号终端IP：</value>
+  </data>
+  <data name="AddressFilter" xml:space="preserve">
+    <value>过滤网址：</value>
+  </data>
+  <data name="AddTo" xml:space="preserve">
+    <value>添  加</value>
+  </data>
+  <data name="AddToOrder" xml:space="preserve">
+    <value>追加编号</value>
+  </data>
+  <data name="AirConditioner" xml:space="preserve">
+    <value>空调</value>
+  </data>
+  <data name="AllFilesFilter" xml:space="preserve">
+    <value>所有文件(*.*)|*.*</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>应  用</value>
+  </data>
+  <data name="Arefaction" xml:space="preserve">
+    <value>除湿</value>
+  </data>
+  <data name="AuthFileFilter" xml:space="preserve">
+    <value>注册文件(*.xf)|*.xf|所有文件(*.*)|*.*</value>
+  </data>
+  <data name="AuthSuccess" xml:space="preserve">
+    <value>注册成功！</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="AutoOrder" xml:space="preserve">
+    <value>终端编号</value>
+  </data>
+  <data name="BaseConfig" xml:space="preserve">
+    <value>基础设置</value>
+  </data>
+  <data name="BlackList" xml:space="preserve">
+    <value>黑名单</value>
+  </data>
+  <data name="BlackScreenWords" xml:space="preserve">
+    <value>黑屏肃静文字：</value>
+  </data>
+  <data name="Broadcasting" xml:space="preserve">
+    <value>屏幕广播中</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>浏  览</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>验  证</value>
+  </data>
+  <data name="CheckFile" xml:space="preserve">
+    <value>验证文件</value>
+  </data>
+  <data name="CheckService" xml:space="preserve">
+    <value>请先验证服务器！</value>
+  </data>
+  <data name="ClassAndCourse" xml:space="preserve">
+    <value>班级与课程</value>
+  </data>
+  <data name="ClassModelColumns" xml:space="preserve">
+    <value>班级模型列数：</value>
+  </data>
+  <data name="ClassRoomName" xml:space="preserve">
+    <value>教室名称：</value>
+  </data>
+  <data name="ClassTemplate" xml:space="preserve">
+    <value>课程模板</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="CloseTerminal" xml:space="preserve">
+    <value>关闭终端</value>
+  </data>
+  <data name="CommonFunction" xml:space="preserve">
+    <value>常用功能</value>
+  </data>
+  <data name="Cool" xml:space="preserve">
+    <value>制冷</value>
+  </data>
+  <data name="CreateVMByCurTemp" xml:space="preserve">
+    <value>是否根据当前模板创建虚拟机？</value>
+  </data>
+  <data name="CurrentFile" xml:space="preserve">
+    <value>当前文件</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="EndClass" xml:space="preserve">
+    <value>下课</value>
+  </data>
+  <data name="EquipmentControl" xml:space="preserve">
+    <value>设备控制</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="FailLoginFC" xml:space="preserve">
+    <value>未能成功登录FC平台</value>
+  </data>
+  <data name="FileDistribute" xml:space="preserve">
+    <value>文件分发</value>
+  </data>
+  <data name="FileDistributeSavePath" xml:space="preserve">
+    <value>文件分发存放路径：</value>
+  </data>
+  <data name="FileDistributeWithNoTerminal" xml:space="preserve">
+    <value>无虚拟机上线，无法使用文件分发功能!</value>
+  </data>
+  <data name="ForbidInternetType" xml:space="preserve">
+    <value>禁网方式：</value>
+  </data>
+  <data name="GetClassInfoFail" xml:space="preserve">
+    <value>未能正确获取班级信息！</value>
+  </data>
+  <data name="GetClassRoomInfoFail" xml:space="preserve">
+    <value>未能正确获取教室信息</value>
+  </data>
+  <data name="GetCourseInfoFail" xml:space="preserve">
+    <value>未能正确获取课程信息</value>
+  </data>
+  <data name="GreeAirConditioner" xml:space="preserve">
+    <value>格力空调</value>
+  </data>
+  <data name="Heat" xml:space="preserve">
+    <value>制热</value>
+  </data>
+  <data name="HostResourceNotEnough" xml:space="preserve">
+    <value>主机资源不足</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="InternetConfig" xml:space="preserve">
+    <value>网络设置</value>
+  </data>
+  <data name="InternetFilter" xml:space="preserve">
+    <value>禁网过滤</value>
+  </data>
+  <data name="IsEndClass" xml:space="preserve">
+    <value>该教室正在上课,是否下课？</value>
+  </data>
+  <data name="LeftRightWind" xml:space="preserve">
+    <value>左右扫风</value>
+  </data>
+  <data name="LifeSpan" xml:space="preserve">
+    <value>使用期限：</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>灯</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>加载中......</value>
+  </data>
+  <data name="LoseInfo" xml:space="preserve">
+    <value>缺少必要信息，请检查！</value>
+  </data>
+  <data name="MachineCode" xml:space="preserve">
+    <value>机器码：</value>
+  </data>
+  <data name="MainNavigateFunction" xml:space="preserve">
+    <value>主导航功能</value>
+  </data>
+  <data name="MaxCreate" xml:space="preserve">
+    <value>最大虚拟机创建数：</value>
+  </data>
+  <data name="MediaAirConditioner" xml:space="preserve">
+    <value>美的空调</value>
+  </data>
+  <data name="MergeRoom" xml:space="preserve">
+    <value>合并教室</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="NullPenTool" xml:space="preserve">
+    <value>未能找到画笔工具！</value>
+  </data>
+  <data name="NullSelectedStudent" xml:space="preserve">
+    <value>请先选中一名学生坐席</value>
+  </data>
+  <data name="NullStudentSignIn" xml:space="preserve">
+    <value>未有学生进行签到！</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>学号</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="OrderFailBecauseOfOnline" xml:space="preserve">
+    <value>您所重新编号的终端已上线，不能加入编号！</value>
+  </data>
+  <data name="Ordering" xml:space="preserve">
+    <value>终端编号中，被编号终端数：</value>
+  </data>
+  <data name="PlatformInformation" xml:space="preserve">
+    <value>平台信息</value>
+  </data>
+  <data name="Projector" xml:space="preserve">
+    <value>投影仪</value>
+  </data>
+  <data name="Projector1" xml:space="preserve">
+    <value>投影仪1</value>
+  </data>
+  <data name="Projector2" xml:space="preserve">
+    <value>投影仪2</value>
+  </data>
+  <data name="Projector3" xml:space="preserve">
+    <value>投影仪3</value>
+  </data>
+  <data name="ProjectorControl" xml:space="preserve">
+    <value>投影仪控制</value>
+  </data>
+  <data name="ReadyToLeaveFileDistribtePage" xml:space="preserve">
+    <value>正在下发文件，是否确定离开此页面？</value>
+  </data>
+  <data name="RemoveFromNavigate" xml:space="preserve">
+    <value>功能从导航移除吗？</value>
+  </data>
+  <data name="ReOrder" xml:space="preserve">
+    <value>重新编号</value>
+  </data>
+  <data name="ReSend" xml:space="preserve">
+    <value>重新发送</value>
+  </data>
+  <data name="ResourceIsBusy" xml:space="preserve">
+    <value>当前资源被占用，请稍后</value>
+  </data>
+  <data name="RestartTerminal" xml:space="preserve">
+    <value>重启终端</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>还原</value>
+  </data>
+  <data name="SchoolName" xml:space="preserve">
+    <value>学校名称：</value>
+  </data>
+  <data name="ScreebBroadcastWithScreenReplay" xml:space="preserve">
+    <value>屏幕转播的同时不支持屏幕广播</value>
+  </data>
+  <data name="Screen" xml:space="preserve">
+    <value>幕布</value>
+  </data>
+  <data name="ScreenBroadcast" xml:space="preserve">
+    <value>屏幕广播</value>
+  </data>
+  <data name="ScreenBroadcastFrame" xml:space="preserve">
+    <value>屏幕广播帧率：</value>
+  </data>
+  <data name="ScreenBroadcastQuality" xml:space="preserve">
+    <value>屏幕广播画质：</value>
+  </data>
+  <data name="ScreenBroadcastStop" xml:space="preserve">
+    <value>关闭广播</value>
+  </data>
+  <data name="ScreenBroadcastWithNetPlay" xml:space="preserve">
+    <value>使用网络影院的同时不支持屏幕广播！</value>
+  </data>
+  <data name="ScreenBroadcastWithStudentShow" xml:space="preserve">
+    <value>学生演示的同时不支持屏幕广播！</value>
+  </data>
+  <data name="ScreenCapSavePath" xml:space="preserve">
+    <value>屏幕录制路径：</value>
+  </data>
+  <data name="ScreenConfig" xml:space="preserve">
+    <value>画质设置</value>
+  </data>
+  <data name="ScreenRelpayTerminal" xml:space="preserve">
+    <value>屏幕转播终端</value>
+  </data>
+  <data name="ScreenReplayWithStudentShow" xml:space="preserve">
+    <value>学生演示的同时不支持屏幕转播!</value>
+  </data>
+  <data name="ScreenView" xml:space="preserve">
+    <value>屏幕查看</value>
+  </data>
+  <data name="ScreenViewFrame" xml:space="preserve">
+    <value>屏幕查看帧率：</value>
+  </data>
+  <data name="ScreenViewTerminal" xml:space="preserve">
+    <value>屏幕查看</value>
+  </data>
+  <data name="SelectAuthFile" xml:space="preserve">
+    <value>请选择注册文件</value>
+  </data>
+  <data name="SelectClass" xml:space="preserve">
+    <value>选择班级</value>
+  </data>
+  <data name="SelectClassAndCourse" xml:space="preserve">
+    <value>请先选择班级和课程信息！</value>
+  </data>
+  <data name="SelectClassRoom" xml:space="preserve">
+    <value>选择教室</value>
+  </data>
+  <data name="SelectCourse" xml:space="preserve">
+    <value>选择课程</value>
+  </data>
+  <data name="SelectFiles" xml:space="preserve">
+    <value>请选择文件</value>
+  </data>
+  <data name="SelectNullClassRoom" xml:space="preserve">
+    <value>当前选择的教室为空，请重新选择！</value>
+  </data>
+  <data name="SelectNullSchool" xml:space="preserve">
+    <value>当前选择的学校为空，请重新选择！</value>
+  </data>
+  <data name="SelectSavePath" xml:space="preserve">
+    <value>请选择存放路径</value>
+  </data>
+  <data name="SelectScreenReplayStudent" xml:space="preserve">
+    <value>请选择转播源学生坐席!</value>
+  </data>
+  <data name="SelectSendFile" xml:space="preserve">
+    <value>请先选择发送文件！</value>
+  </data>
+  <data name="SendFileSuccess" xml:space="preserve">
+    <value>发送文件成功</value>
+  </data>
+  <data name="SendStop" xml:space="preserve">
+    <value>已停止</value>
+  </data>
+  <data name="SendSuccess" xml:space="preserve">
+    <value>发送成功</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>序号</value>
+  </data>
+  <data name="ServiceHost" xml:space="preserve">
+    <value>服务地址：</value>
+  </data>
+  <data name="SetClock" xml:space="preserve">
+    <value>设置签到时间</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>演示中</value>
+  </data>
+  <data name="SignedIn" xml:space="preserve">
+    <value>已签到</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>电子签到</value>
+  </data>
+  <data name="SigningToExport" xml:space="preserve">
+    <value>正在进行签到，无法导出！</value>
+  </data>
+  <data name="SigningToQuit" xml:space="preserve">
+    <value>正在进行签到，是否退出？</value>
+  </data>
+  <data name="Situation" xml:space="preserve">
+    <value>情景模式</value>
+  </data>
+  <data name="SmartConrrol" xml:space="preserve">
+    <value>智能控制</value>
+  </data>
+  <data name="SmartRoom" xml:space="preserve">
+    <value>智慧教室</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>音频源：</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>开  始</value>
+  </data>
+  <data name="StartSend" xml:space="preserve">
+    <value>开始发送</value>
+  </data>
+  <data name="StartSignIn" xml:space="preserve">
+    <value>开始签到</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>停  止</value>
+  </data>
+  <data name="StopSend" xml:space="preserve">
+    <value>停止发送</value>
+  </data>
+  <data name="StopSignIn" xml:space="preserve">
+    <value>结束签到</value>
+  </data>
+  <data name="StudentShow" xml:space="preserve">
+    <value>学生演示</value>
+  </data>
+  <data name="StudentShowStop" xml:space="preserve">
+    <value>关闭演示</value>
+  </data>
+  <data name="StudentShowWithScreenBroadcast" xml:space="preserve">
+    <value>屏幕广播的同时不能开启学生演示!</value>
+  </data>
+  <data name="StudentShowWithScreenReplay" xml:space="preserve">
+    <value>屏幕转播的同时不能开启学生演示!</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="SupportFunction" xml:space="preserve">
+    <value>辅助功能</value>
+  </data>
+  <data name="SureTo" xml:space="preserve">
+    <value>确定要将</value>
+  </data>
+  <data name="SureToCloseTerminal" xml:space="preserve">
+    <value>确定要关闭终端？</value>
+  </data>
+  <data name="SureToRebootTerminal" xml:space="preserve">
+    <value>确定要重启终端？</value>
+  </data>
+  <data name="SwitchState" xml:space="preserve">
+    <value>开关状态</value>
+  </data>
+  <data name="TCIP" xml:space="preserve">
+    <value>终端IP</value>
+  </data>
+  <data name="TCMac" xml:space="preserve">
+    <value>终端MAC</value>
+  </data>
+  <data name="TCNumber" xml:space="preserve">
+    <value>终端号码：</value>
+  </data>
+  <data name="Temperature" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="Terminal" xml:space="preserve">
+    <value>终端</value>
+  </data>
+  <data name="TerminalCount" xml:space="preserve">
+    <value>终端数：</value>
+  </data>
+  <data name="TerminalManage" xml:space="preserve">
+    <value>终端管理</value>
+  </data>
+  <data name="TerminalNumber" xml:space="preserve">
+    <value>终端编号</value>
+  </data>
+  <data name="TerminalOrder" xml:space="preserve">
+    <value>终端编号</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Tip" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>共</value>
+  </data>
+  <data name="TotalPercent" xml:space="preserve">
+    <value>总进度</value>
+  </data>
+  <data name="UnReturn" xml:space="preserve">
+    <value>不还原</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="UpDownWind" xml:space="preserve">
+    <value>上下扫风</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>网址</value>
+  </data>
+  <data name="VMReturn" xml:space="preserve">
+    <value>虚拟机还原：</value>
+  </data>
+  <data name="WhiteList" xml:space="preserve">
+    <value>白名单</value>
+  </data>
+  <data name="Wind" xml:space="preserve">
+    <value>送风</value>
+  </data>
+  <data name="ForbidApp" xml:space="preserve">
+    <value>禁止应用</value>
+  </data>
+  <data name="App" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>应用：</value>
+  </data>
+  <data name="BorbidAppType" xml:space="preserve">
+    <value>禁止方式：</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>选  择</value>
+  </data>
+  <data name="AddNull" xml:space="preserve">
+    <value>请勿添加空项</value>
+  </data>
+  <data name="AddSameItem" xml:space="preserve">
+    <value>请勿添加重复项</value>
+  </data>
+  <data name="AppNameNull" xml:space="preserve">
+    <value>程序名不能为空</value>
+  </data>
+  <data name="SelectFilePath" xml:space="preserve">
+    <value>请选择文件分发存放路径</value>
+  </data>
+  <data name="SelectRecordePath" xml:space="preserve">
+    <value>请选择屏幕录制存放路径</value>
+  </data>
+  <data name="SetUsefulFz" xml:space="preserve">
+    <value>帧率有效值范围1~60</value>
+  </data>
+  <data name="SystemConfig" xml:space="preserve">
+    <value>系统设置</value>
+  </data>
+  <data name="MergingRoomWithTcOrder" xml:space="preserve">
+    <value>合并教室的时候无法进行编号！</value>
+  </data>
+  <data name="AddZeroError" xml:space="preserve">
+    <value>加入编号不能为0！</value>
+  </data>
+  <data name="ExistSameAddNumber" xml:space="preserve">
+    <value>已存在相同编号！</value>
+  </data>
+  <data name="VM" xml:space="preserve">
+    <value>虚拟机</value>
+  </data>
+  <data name="ExeFliter" xml:space="preserve">
+    <value>应用文件(*.exe)|*.exe</value>
+  </data>
+  <data name="InfoIncomplete" xml:space="preserve">
+    <value>教室所需信息不完整！</value>
+  </data>
+  <data name="SignInInfo" xml:space="preserve">
+    <value>签到信息</value>
+  </data>
+  <data name="CheckAndHide" xml:space="preserve">
+    <value>勾选此项，不在显示！</value>
+  </data>
+  <data name="Trial" xml:space="preserve">
+    <value>试用版</value>
+  </data>
+  <data name="AuthMsg" xml:space="preserve">
+    <value>您当前使用的是</value>
+  </data>
+  <data name="AuthFail" xml:space="preserve">
+    <value>注册失败！</value>
+  </data>
+  <data name="NotSignIn" xml:space="preserve">
+    <value>未签到</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>路径：</value>
+  </data>
+  <data name="RestartAllFcVms" xml:space="preserve">
+    <value>将要重启本教室所有虚拟机，是否继续？</value>
+  </data>
+  <data name="NoneVmsStart" xml:space="preserve">
+    <value>您尚未创建虚拟机或FC平台登录失败！</value>
+  </data>
+  <data name="CdmNull" xml:space="preserve">
+    <value>您的CDM地址为空</value>
+  </data>
+  <data name="AudioBroadcast" xml:space="preserve">
+    <value>音频广播</value>
+  </data>
+  <data name="ChangeClass" xml:space="preserve">
+    <value>一键换课</value>
+  </data>
+  <data name="ClassModel" xml:space="preserve">
+    <value>终端编号</value>
+  </data>
+  <data name="DrawBroad" xml:space="preserve">
+    <value>网络画板</value>
+  </data>
+  <data name="RestartVM" xml:space="preserve">
+    <value>重启虚拟机</value>
+  </data>
+  <data name="ScreenCapture" xml:space="preserve">
+    <value>屏幕录制</value>
+  </data>
+  <data name="ScreenReplay" xml:space="preserve">
+    <value>屏幕转播</value>
+  </data>
+  <data name="TdChalk" xml:space="preserve">
+    <value>电子教鞭</value>
+  </data>
+  <data name="NullPdfTool" xml:space="preserve">
+    <value>未找到帮助文档!</value>
+  </data>
+  <data name="WidthOutPdf" xml:space="preserve">
+    <value>未安装可打开PDF的程序！</value>
+  </data>
+  <data name="HuaweiErrorCode" xml:space="preserve">
+    <value>错误码为</value>
+  </data>
+  <data name="HuaweiLinkError" xml:space="preserve">
+    <value>初始化授权接口失败，请重试</value>
+  </data>
+  <data name="ExportMac" xml:space="preserve">
+    <value>导出信息</value>
+    <comment>Derived information</comment>
+  </data>
+  <data name="MacStart" xml:space="preserve">
+    <value>Mac开始地址：</value>
+  </data>
+  <data name="MacStartError" xml:space="preserve">
+    <value>MAC最后2位可能存在越界危险！</value>
+  </data>
+  <data name="FileReceive" xml:space="preserve">
+    <value>文件接收</value>
+  </data>
+  <data name="FileReceivePath" xml:space="preserve">
+    <value>作业提交路径：</value>
+  </data>
+  <data name="FileReceiveSavePath" xml:space="preserve">
+    <value>作业提交路径</value>
+  </data>
+  <data name="VMIP" xml:space="preserve">
+    <value>虚拟机IP</value>
+  </data>
+  <data name="VMMAC" xml:space="preserve">
+    <value>虚拟机MAC</value>
+  </data>
+  <data name="ReveiceOk" xml:space="preserve">
+    <value>接收完成</value>
+  </data>
+  <data name="BroadcastWithOrder" xml:space="preserve">
+    <value>正在进行屏幕广播，无法进行编号！</value>
+  </data>
+  <data name="Cdmaddr" xml:space="preserve">
+    <value>Cdm地址：</value>
+  </data>
+  <data name="Fcaddr" xml:space="preserve">
+    <value>FC地址：</value>
+  </data>
+  <data name="FCuser" xml:space="preserve">
+    <value>FC账号：</value>
+  </data>
+  <data name="FileIsUsing" xml:space="preserve">
+    <value>文件正在被使用！</value>
+  </data>
+  <data name="FileNotExist" xml:space="preserve">
+    <value>文件不存在！</value>
+  </data>
+  <data name="IsRestarting" xml:space="preserve">
+    <value>正在重启虚拟机，请稍后重试</value>
+  </data>
+  <data name="NullVms" xml:space="preserve">
+    <value>虚拟机未上线</value>
+  </data>
+  <data name="TimeOut" xml:space="preserve">
+    <value>连接超时</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="FCpathError" xml:space="preserve">
+    <value>FC地址错误</value>
+  </data>
+  <data name="RoomNumber" xml:space="preserve">
+    <value>教室编号：</value>
+  </data>
+  <data name="FCpwd" xml:space="preserve">
+    <value>FC密码：</value>
+  </data>
+  <data name="ErrorTime" xml:space="preserve">
+    <value>检测到系统时间设置错误，无法开启软件！</value>
+  </data>
+  <data name="UseTimeEnd" xml:space="preserve">
+    <value>试用时间已到期，是否前往注册？</value>
+  </data>
+  <data name="UseTime" xml:space="preserve">
+    <value>期限：</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="UseState" xml:space="preserve">
+    <value>试用</value>
+  </data>
+  <data name="OnlineStudents" xml:space="preserve">
+    <value>在线人数</value>
+  </data>
+  <data name="OnlineTerminals" xml:space="preserve">
+    <value>在线终端数</value>
+  </data>
+  <data name="FcCreateNumber" xml:space="preserve">
+    <value>虚拟机创建个数：</value>
+  </data>
+  <data name="MaxCreateNumber" xml:space="preserve">
+    <value>最大虚拟机创建数为</value>
+  </data>
+  <data name="TerminalState" xml:space="preserve">
+    <value>终端状态</value>
+  </data>
+  <data name="VMState" xml:space="preserve">
+    <value>虚拟机状态</value>
+  </data>
+  <data name="ExistSameIP" xml:space="preserve">
+    <value>此IP对应终端已上线，无法添加！</value>
+  </data>
+  <data name="ErrorCdm" xml:space="preserve">
+    <value>CDM地址错误</value>
+  </data>
+  <data name="NetError" xml:space="preserve">
+    <value>因为网络原因，无法为您查询进度。</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>确定退出？</value>
+  </data>
+  <data name="Quiting" xml:space="preserve">
+    <value>软件退出中...</value>
+  </data>
+  <data name="FcCtrl" xml:space="preserve">
+    <value>FC平台</value>
+  </data>
+  <data name="sure" xml:space="preserve">
+    <value>台,是否重启？</value>
+  </data>
+  <data name="vms" xml:space="preserve">
+    <value>台，其中可重启</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>您共有</value>
+  </data>
+  <data name="ResetVM" xml:space="preserve">
+    <value>虚拟机管理</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="Reboot" xml:space="preserve">
+    <value>重启</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>还原</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="VmName" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Boot" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="CNAinfo" xml:space="preserve">
+    <value>CNA配置</value>
+  </data>
+  <data name="BMCInfo" xml:space="preserve">
+    <value>BMC信息</value>
+  </data>
+  <data name="CNAInfo2" xml:space="preserve">
+    <value>CNA设置</value>
+  </data>
+  <data name="SwitchSetting" xml:space="preserve">
+    <value>开关机设置</value>
+  </data>
+  <data name="MaxFileLength" xml:space="preserve">
+    <value>文件名称长度不能超过</value>
+  </data>
+  <data name="SureToReboot" xml:space="preserve">
+    <value>是否重启选中的虚拟机？</value>
+  </data>
+  <data name="SureToReset" xml:space="preserve">
+    <value>是否还原选中的虚拟机？</value>
+  </data>
+  <data name="SureToStart" xml:space="preserve">
+    <value>是否启动选中的虚拟机？</value>
+  </data>
+  <data name="SureToStop" xml:space="preserve">
+    <value>是否关闭选中的虚拟机？</value>
+  </data>
+  <data name="NullClassTemplate" xml:space="preserve">
+    <value>未查询到虚拟机模板！</value>
+  </data>
+  <data name="ServiceManger" xml:space="preserve">
+    <value>服务器管理</value>
+  </data>
+  <data name="CloseService" xml:space="preserve">
+    <value>关闭服务器</value>
+  </data>
+  <data name="OpenService" xml:space="preserve">
+    <value>打开服务器</value>
+  </data>
+  <data name="MessageSend" xml:space="preserve">
+    <value>信息已发送</value>
+  </data>
+  <data name="NullExe" xml:space="preserve">
+    <value>缺少某些系统必须的工具，无法发送</value>
+  </data>
+  <data name="WithHost" xml:space="preserve">
+    <value>您所选择的模板尚未绑定主机</value>
+  </data>
+  <data name="CheckError" xml:space="preserve">
+    <value>验证服务器错误！</value>
+  </data>
+  <data name="LoseSchool" xml:space="preserve">
+    <value>缺少学校信息!</value>
+  </data>
+  <data name="NullCna" xml:space="preserve">
+    <value>缺少CNA信息，请更新CNA信息后重试</value>
+  </data>
+  <data name="AddIn" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="BMCIp" xml:space="preserve">
+    <value>BMC IP</value>
+  </data>
+  <data name="BMCUse" xml:space="preserve">
+    <value>BMC 用户名</value>
+  </data>
+  <data name="CNAIp" xml:space="preserve">
+    <value>CNA IP</value>
+  </data>
+  <data name="CNAUse" xml:space="preserve">
+    <value>CNA 用户名</value>
+  </data>
+  <data name="BmcPwd" xml:space="preserve">
+    <value>BMC 密码</value>
+  </data>
+  <data name="CnaPwd" xml:space="preserve">
+    <value>CNA 密码</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="ServiceInfoAdd" xml:space="preserve">
+    <value>服务器信息添加</value>
+  </data>
+  <data name="ServiceInfoList" xml:space="preserve">
+    <value>服务器信息列表</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>检查更新</value>
+  </data>
+  <data name="LoginOverTime" xml:space="preserve">
+    <value>登录超时</value>
+  </data>
+  <data name="ServiceCloseMsg" xml:space="preserve">
+    <value>您正在进行关闭操作,是否继续?</value>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>登录失败</value>
+  </data>
+  <data name="CloudUrlNull" xml:space="preserve">
+    <value>云盘地址为空！</value>
+  </data>
+  <data name="HomeWorkUrlNull" xml:space="preserve">
+    <value>作业空间地址为空！</value>
+  </data>
+  <data name="OnlineTestUrlNull" xml:space="preserve">
+    <value>在线测试地址为空！</value>
+  </data>
+  <data name="ShareResourceUrl" xml:space="preserve">
+    <value>资源共享地址为空！</value>
+  </data>
+  <data name="MinFileLength" xml:space="preserve">
+    <value>文件长度为0！</value>
+  </data>
+  <data name="SameIpTerminal" xml:space="preserve">
+    <value>已存在相同IP的终端！</value>
+  </data>
+  <data name="NullTerminals" xml:space="preserve">
+    <value>终端未上线！</value>
+  </data>
+  <data name="NullClassNumber" xml:space="preserve">
+    <value>请输入教室编号!</value>
+  </data>
+  <data name="FileReceivePathNull" xml:space="preserve">
+    <value>作业提交路径为空！</value>
+  </data>
+  <data name="ScreenCapPathNull" xml:space="preserve">
+    <value>屏幕录制路径不能为空！</value>
+  </data>
+  <data name="FileReceivePathNotExist" xml:space="preserve">
+    <value>作业提交路径不存在！</value>
+  </data>
+  <data name="ScreenCapPathNotExist" xml:space="preserve">
+    <value>屏幕录制路径不存在！</value>
+  </data>
+  <data name="TerminalOrderWithNetPlay" xml:space="preserve">
+    <value>开启网络影院时无法进行编号！</value>
+  </data>
+  <data name="RoomNumberValue" xml:space="preserve">
+    <value>教室编号范围1~1000</value>
+  </data>
+  <data name="CreateVMZero" xml:space="preserve">
+    <value>创建虚拟机数必须大于0!</value>
+  </data>
+  <data name="SignInExportError" xml:space="preserve">
+    <value>未找到Excel工具</value>
+  </data>
+  <data name="ExportLastSignIn" xml:space="preserve">
+    <value>是否导出上次签到信息?</value>
+  </data>
+  <data name="CreateVmNumberNull" xml:space="preserve">
+    <value>请输入创建虚拟机数!</value>
+  </data>
+  <data name="ErrorFcPath" xml:space="preserve">
+    <value>FC地址不正确!</value>
+  </data>
+  <data name="ForbitNetWithChange" xml:space="preserve">
+    <value>请先接触禁止上网再切换!</value>
+  </data>
+  <data name="FileSubmit" xml:space="preserve">
+    <value>作业提交</value>
+  </data>
+  <data name="ErrorMac" xml:space="preserve">
+    <value>mac地址不合法！</value>
+  </data>
+  <data name="ChangeRoomNumber" xml:space="preserve">
+    <value>修改教室编号请先下课，重启软件后生效！</value>
+  </data>
+  <data name="MoreThanTwoClassVM" xml:space="preserve">
+    <value>已有两个不同教室编号的虚拟机存在！</value>
+  </data>
+  <data name="SendFail" xml:space="preserve">
+    <value>发送失败</value>
+  </data>
+  <data name="Fail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="FileUsing" xml:space="preserve">
+    <value>文件正在使用，发送失败！</value>
+  </data>
+  <data name="SameMac" xml:space="preserve">
+    <value>Mac地址重复，创建失败！</value>
+  </data>
+  <data name="CEMTS" xml:space="preserve">
+    <value>智慧云教育</value>
+  </data>
+  <data name="FcRemoteDisconnect" xml:space="preserve">
+    <value>无法连接远程服务器</value>
+  </data>
+  <data name="InitDiskFail" xml:space="preserve">
+    <value>初始化硬盘信息失败</value>
+  </data>
+  <data name="InitAuthFail" xml:space="preserve">
+    <value>鉴权接口初始化失败！</value>
+  </data>
+  <data name="PathLegthWrong" xml:space="preserve">
+    <value>路径过长,请重新选择！</value>
+  </data>
+  <data name="ScreenReplyStop" xml:space="preserve">
+    <value>停止转播</value>
+  </data>
+  <data name="Fixed" xml:space="preserve">
+    <value>固定</value>
+  </data>
+  <data name="CloseVM" xml:space="preserve">
+    <value>关闭虚拟机</value>
+  </data>
+  <data name="ScreenCapWithNetPlay" xml:space="preserve">
+    <value>正在播放网络影院，无法录制屏幕！</value>
+  </data>
+  <data name="ScreenResolution" xml:space="preserve">
+    <value>广播分辨率：</value>
+  </data>
+  <data name="FileNameTooLong" xml:space="preserve">
+    <value>是否忽略过长文件名并继续添加？</value>
+  </data>
+  <data name="ResolutionChangeWhenBroadcast" xml:space="preserve">
+    <value>屏幕分辨率已更改，请重新开启屏幕广播！</value>
+  </data>
+  <data name="SignInWithNoVms" xml:space="preserve">
+    <value>无虚拟机上线,无法使用电子签到!</value>
+  </data>
+  <data name="OverClass" xml:space="preserve">
+    <value>下  课</value>
+  </data>
+  <data name="StartClass" xml:space="preserve">
+    <value>上  课</value>
+  </data>
+  <data name="TaskList" xml:space="preserve">
+    <value>任务列表</value>
+  </data>
+  <data name="SelectClassTemplate" xml:space="preserve">
+    <value>请先选择课程模板！</value>
+  </data>
+  <data name="ThereIsNoVms" xml:space="preserve">
+    <value>本教室无虚拟机正在上课！</value>
+  </data>
+  <data name="ClassStatus" xml:space="preserve">
+    <value>状态：</value>
+  </data>
+  <data name="OffClass" xml:space="preserve">
+    <value>未上课</value>
+  </data>
+  <data name="OnClass" xml:space="preserve">
+    <value>上课中</value>
+  </data>
+  <data name="ChangeClassTemplate" xml:space="preserve">
+    <value>是否切换课程模板？</value>
+  </data>
+  <data name="ErrorLicence" xml:space="preserve">
+    <value>授权文件内容错误，请联系软件开发商！</value>
+  </data>
+  <data name="MachineCodeError" xml:space="preserve">
+    <value>机器码不匹配，请联系软件开发商！</value>
+  </data>
+  <data name="ReturnNormal" xml:space="preserve">
+    <value>向下还原</value>
+  </data>
+  <data name="Exam" xml:space="preserve">
+    <value>在线考试</value>
+  </data>
+  <data name="ExamSetting" xml:space="preserve">
+    <value>在线考试试题设置</value>
+  </data>
+  <data name="InitilizeFail" xml:space="preserve">
+    <value>初始化失败，请重启软件！</value>
+  </data>
+  <data name="FilterConfigFileIsError" xml:space="preserve">
+    <value>检测到过滤文件被破坏，请重启软件重置恢复！</value>
+  </data>
+  <data name="FuncConfigFileIsError" xml:space="preserve">
+    <value>检测到功能配置文件被破坏，请重启软件重置恢复！</value>
+  </data>
+  <data name="ServiceConfigFileIsError" xml:space="preserve">
+    <value>检测到服务器配置文件被破坏，请重启软件重置恢复！</value>
+  </data>
+  <data name="TerminalConfigFileIsError" xml:space="preserve">
+    <value>检测到终端记录文件被破坏，请重启软件恢复并重新进行编号!</value>
+  </data>
+  <data name="Insert" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="SameIPAdded" xml:space="preserve">
+    <value>已添加该IP的终端！</value>
+  </data>
+  <data name="AddTCNullIP" xml:space="preserve">
+    <value>加入终端IP为空</value>
+  </data>
+  <data name="AddTCNullNumber" xml:space="preserve">
+    <value>加入终端编号为空</value>
+  </data>
+  <data name="ScreenReplyError" xml:space="preserve">
+    <value>屏幕转播开启播放器异常，请重试！</value>
+  </data>
+  <data name="FileSubmitLowSpace" xml:space="preserve">
+    <value>作业提交磁盘空间不够</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="ExamPaper" xml:space="preserve">
+    <value>试卷</value>
+  </data>
+  <data name="Scantron" xml:space="preserve">
+    <value>答题卡</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="ExamPaperPath" xml:space="preserve">
+    <value>试卷路径：</value>
+  </data>
+  <data name="ExamTime" xml:space="preserve">
+    <value>考试时间：</value>
+  </data>
+  <data name="DocFileFilter" xml:space="preserve">
+    <value>Word文档(*.doc;*.docx)|*.doc;*.docx</value>
+  </data>
+  <data name="ExamTimeError" xml:space="preserve">
+    <value>请输入合法数字</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Judgement" xml:space="preserve">
+    <value>判断题</value>
+  </data>
+  <data name="MaxSelect" xml:space="preserve">
+    <value>最大题项：</value>
+  </data>
+  <data name="MultipleChoice" xml:space="preserve">
+    <value>多选题</value>
+  </data>
+  <data name="QuestionNumber" xml:space="preserve">
+    <value>题数：</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>分数：</value>
+  </data>
+  <data name="SingleChoice" xml:space="preserve">
+    <value>单选题</value>
+  </data>
+  <data name="InputNumberError" xml:space="preserve">
+    <value>输入值不能超过100！</value>
+  </data>
+  <data name="AddNumberError" xml:space="preserve">
+    <value>加入编号过大！</value>
+  </data>
+  <data name="SetPaperPath" xml:space="preserve">
+    <value>请先设置试卷路径！</value>
+  </data>
+  <data name="SetPaperTime" xml:space="preserve">
+    <value>请设置考试时间！</value>
+  </data>
+  <data name="SetQuestion" xml:space="preserve">
+    <value>请先设置答题卡</value>
+  </data>
+  <data name="SingleChoiceSelectNull" xml:space="preserve">
+    <value>请先设置单选题答案！</value>
+  </data>
+  <data name="JudgeAnswerNull" xml:space="preserve">
+    <value>请先设置判断题答案！</value>
+  </data>
+  <data name="MultipleChoiceAnswerNull" xml:space="preserve">
+    <value>请先设置多选题答案！</value>
+  </data>
+  <data name="EditPaper" xml:space="preserve">
+    <value>修改试卷</value>
+  </data>
+  <data name="StartExam" xml:space="preserve">
+    <value>开始考试</value>
+  </data>
+  <data name="RightAnswer" xml:space="preserve">
+    <value>正确答案：</value>
+  </data>
+  <data name="StudentName" xml:space="preserve">
+    <value>姓名：</value>
+  </data>
+  <data name="StudentNumber" xml:space="preserve">
+    <value>学号：</value>
+  </data>
+  <data name="HandExam" xml:space="preserve">
+    <value>交卷</value>
+  </data>
+  <data name="GotScore" xml:space="preserve">
+    <value>得分：</value>
+  </data>
+  <data name="AppMes" xml:space="preserve">
+    <value>您的某些应用已被禁止运行</value>
+  </data>
+  <data name="CanotConnect" xml:space="preserve">
+    <value>无法连接远程服务器！</value>
+  </data>
+  <data name="CeAppMes" xml:space="preserve">
+    <value>已取消禁止您的应用</value>
+  </data>
+  <data name="CeMouseMes" xml:space="preserve">
+    <value>你可以使用你的键鼠了</value>
+  </data>
+  <data name="CeNetMess" xml:space="preserve">
+    <value>已取消您的禁止上网</value>
+  </data>
+  <data name="CeUsbMes" xml:space="preserve">
+    <value>您可重新使用您的USB接口</value>
+  </data>
+  <data name="ChangeLang" xml:space="preserve">
+    <value>切换语言</value>
+  </data>
+  <data name="Check2" xml:space="preserve">
+    <value>查看</value>
+  </data>
+  <data name="ClinetName" xml:space="preserve">
+    <value>智慧云教育学生端</value>
+  </data>
+  <data name="CloudUriNull" xml:space="preserve">
+    <value>我的云盘地址为空！</value>
+  </data>
+  <data name="ExitMessage" xml:space="preserve">
+    <value>请输入密码进行退出！</value>
+  </data>
+  <data name="FileDistributeSetPathFail" xml:space="preserve">
+    <value>文件分发合成路径失败！</value>
+  </data>
+  <data name="FileLost" xml:space="preserve">
+    <value>找不到文件</value>
+  </data>
+  <data name="FileReceiveExit" xml:space="preserve">
+    <value>您正在提交文件，是否退出？</value>
+  </data>
+  <data name="FileSubmitCreateFail" xml:space="preserve">
+    <value>连接失败，请重新打开作业提交界面！</value>
+  </data>
+  <data name="FileSubStart" xml:space="preserve">
+    <value>您可以进行作业提交了</value>
+  </data>
+  <data name="HandUp" xml:space="preserve">
+    <value>举手</value>
+  </data>
+  <data name="HomeworkSpaceUriNull" xml:space="preserve">
+    <value>作业空间地址为空！</value>
+  </data>
+  <data name="HomeworkSpase" xml:space="preserve">
+    <value>作业空间</value>
+  </data>
+  <data name="LanguageSeting" xml:space="preserve">
+    <value>语言设置</value>
+  </data>
+  <data name="LoginPage" xml:space="preserve">
+    <value>登  录</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>注  销</value>
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>文件名最大长度不能超过</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="MessageDlg" xml:space="preserve">
+    <value>消息通知</value>
+  </data>
+  <data name="MouseMes" xml:space="preserve">
+    <value>您的键盘鼠标已被禁止使用</value>
+  </data>
+  <data name="NetConfig" xml:space="preserve">
+    <value>网络设置</value>
+  </data>
+  <data name="NetMess" xml:space="preserve">
+    <value>您已被禁止上网</value>
+  </data>
+  <data name="NotTrueNumber" xml:space="preserve">
+    <value>学号不匹配</value>
+  </data>
+  <data name="NullPassword" xml:space="preserve">
+    <value>账号或密码为空！</value>
+  </data>
+  <data name="NullStudentNumber" xml:space="preserve">
+    <value>学号不能为空！</value>
+  </data>
+  <data name="OnlineTestUriNull" xml:space="preserve">
+    <value>在线测试地址为空！</value>
+  </data>
+  <data name="PwdError" xml:space="preserve">
+    <value>密码错误！</value>
+  </data>
+  <data name="ResoursShare" xml:space="preserve">
+    <value>资源共享</value>
+  </data>
+  <data name="RestartHdpClient" xml:space="preserve">
+    <value>如果虚拟机依旧不能上线，请重启HDPClient！</value>
+  </data>
+  <data name="RestartSoft" xml:space="preserve">
+    <value>检测到连续创建套接字连接失败，自动重启软件</value>
+  </data>
+  <data name="SendMessageFalse" xml:space="preserve">
+    <value>发送签到信息失败</value>
+  </data>
+  <data name="ServerAddress" xml:space="preserve">
+    <value>服务地址:  </value>
+  </data>
+  <data name="SignFail" xml:space="preserve">
+    <value>签到失败</value>
+  </data>
+  <data name="SignInHeader" xml:space="preserve">
+    <value>电子签到</value>
+  </data>
+  <data name="SignSec" xml:space="preserve">
+    <value>签到成功</value>
+  </data>
+  <data name="SureExit" xml:space="preserve">
+    <value>确认退出</value>
+  </data>
+  <data name="TeacherCheckYou" xml:space="preserve">
+    <value>教师回应了你！</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>验证</value>
+  </data>
+  <data name="TestOnline" xml:space="preserve">
+    <value>在线考试</value>
+  </data>
+  <data name="TestOnline1" xml:space="preserve">
+    <value>Online test</value>
+    <comment>在线考试</comment>
+  </data>
+  <data name="UsbMes" xml:space="preserve">
+    <value>您的USB接口已被禁用</value>
+  </data>
+  <data name="VerifyFirst" xml:space="preserve">
+    <value>请先验证服务器地址！</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>智慧云教育 V3.0</value>
+  </data>
+  <data name="NameNull" xml:space="preserve">
+    <value>姓名不能为空！</value>
+  </data>
+  <data name="QuitExam" xml:space="preserve">
+    <value>当前正在进行在线考试，是否确认退出？</value>
+  </data>
+  <data name="FileSubmitNotOnline" xml:space="preserve">
+    <value>当前虚拟机未上线，无法使用作业提交</value>
+  </data>
+  <data name="Percent" xml:space="preserve">
+    <value>进度</value>
+  </data>
+  <data name="VMOffline" xml:space="preserve">
+    <value>虚拟机未上线</value>
+  </data>
+  <data name="VMOfflined" xml:space="preserve">
+    <value>虚拟机已下线</value>
+  </data>
+  <data name="VMOnline" xml:space="preserve">
+    <value>已发起虚拟机上线</value>
+  </data>
+  <data name="ExamResult" xml:space="preserve">
+    <value>考试结果</value>
+  </data>
+  <data name="Scores" xml:space="preserve">
+    <value>成绩</value>
+  </data>
+  <data name="AboutMenu" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="ExitMenu" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="OfficeUninstalled" xml:space="preserve">
+    <value>检测到本机可能未安装Office2010以及更高版本!</value>
+  </data>
+  <data name="NullStudentPapers" xml:space="preserve">
+    <value>当前无考试成绩，无法导出！</value>
+  </data>
+  <data name="CanForbidStudentApp" xml:space="preserve">
+    <value>不能禁止学生端应用</value>
+  </data>
+  <data name="ExportSuccess" xml:space="preserve">
+    <value>导出成功！</value>
+  </data>
+  <data name="AddNoTC" xml:space="preserve">
+    <value>没有待加入终端</value>
+  </data>
+  <data name="ConfigVmFail" xml:space="preserve">
+    <value>根据模板配置虚拟机信息失败</value>
+  </data>
+  <data name="NullTemplateVm" xml:space="preserve">
+    <value>未查询到该模板虚拟机</value>
+  </data>
+  <data name="TemplateHostNull" xml:space="preserve">
+    <value>未查询到模板所在主机信息</value>
+  </data>
+  <data name="InitVmInstanceFail" xml:space="preserve">
+    <value>初始化FC虚拟机实例失败</value>
+  </data>
+  <data name="Tooltip" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="InitCommFail" xml:space="preserve">
+    <value>初始化通用接口实例失败</value>
+  </data>
+  <data name="InitHostFail" xml:space="preserve">
+    <value>初始化主机实例失败</value>
+  </data>
+  <data name="InitSiteUrlFail" xml:space="preserve">
+    <value>初始化站点信息失败</value>
+  </data>
+  <data name="InitTaskNull" xml:space="preserve">
+    <value>初始化任务实例失败</value>
+  </data>
+  <data name="InitVmNull" xml:space="preserve">
+    <value>初始化虚拟机实例失败</value>
+  </data>
+  <data name="CurrentTempletRunning" xml:space="preserve">
+    <value>当前模板的虚拟机正在运行，是否重新创建？</value>
+  </data>
+  <data name="RunningVmNull" xml:space="preserve">
+    <value>当前无本教室的虚拟机运行</value>
+  </data>
+  <data name="SelectedTempletNull" xml:space="preserve">
+    <value>当前未选择任何课程模板</value>
+  </data>
+  <data name="CurrentStatus" xml:space="preserve">
+    <value>当前状态：</value>
+  </data>
+  <data name="RunningVm" xml:space="preserve">
+    <value>运行虚拟机：</value>
+  </data>
+  <data name="LackOfMemory" xml:space="preserve">
+    <value>剩余空间不足，是否选用其他路径接收文件?</value>
+  </data>
+  <data name="FileSendSuccess" xml:space="preserve">
+    <value>文件发送成功</value>
+  </data>
+  <data name="FileSendUnknownError" xml:space="preserve">
+    <value>文件分发客户端发生未知错误</value>
+  </data>
+  <data name="OutOfMemory" xml:space="preserve">
+    <value>剩余空间不足</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>清除全部</value>
+  </data>
+</root>

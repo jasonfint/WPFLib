@@ -1,0 +1,2231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+    <comment>关于我们</comment>
+  </data>
+  <data name="Auth" xml:space="preserve">
+    <value>Authorize</value>
+    <comment>Lic授权</comment>
+  </data>
+  <data name="BlackScreen" xml:space="preserve">
+    <value>Black screen</value>
+    <comment>黑屏肃静</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>取消</comment>
+  </data>
+  <data name="CheckRun" xml:space="preserve">
+    <value>The application is already running,please don't run it repeat!</value>
+    <comment>检测程序正在运行</comment>
+  </data>
+  <data name="ChexkRunTitle" xml:space="preserve">
+    <value>Check Running</value>
+    <comment>检测程序正在运行的标题</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+    <comment>关闭</comment>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>Config</value>
+    <comment>系统设置</comment>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Please go to CEMTS application install path and find the error Log!</value>
+    <comment>错误提示信息</comment>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Application Error!</value>
+    <comment>错误提示信息标题</comment>
+  </data>
+  <data name="FcInfoLose" xml:space="preserve">
+    <value>Can't get FusionCompute platform information!</value>
+    <comment>未能获取FC平台信息</comment>
+  </data>
+  <data name="ForbidMouseAndKeyboard" xml:space="preserve">
+    <value>Forbid mouse and keyboard!</value>
+    <comment>禁用键鼠</comment>
+  </data>
+  <data name="ForbidNetwork" xml:space="preserve">
+    <value>Forbid network</value>
+    <comment>禁止上网</comment>
+  </data>
+  <data name="ForbidUSB" xml:space="preserve">
+    <value>Forbid USB</value>
+    <comment>禁用USB</comment>
+  </data>
+  <data name="FunctionConfig" xml:space="preserve">
+    <value>Function</value>
+    <comment>功能设置</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+    <comment>帮助</comment>
+  </data>
+  <data name="HelpCenter" xml:space="preserve">
+    <value>Help</value>
+    <comment>帮助中心</comment>
+  </data>
+  <data name="Homework" xml:space="preserve">
+    <value>Homework</value>
+    <comment>作业空间</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language:</value>
+    <comment>语言</comment>
+  </data>
+  <data name="LinkError" xml:space="preserve">
+    <value>Link has errors,go for offline login?</value>
+    <comment>连接异常，是否切换异常登录</comment>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+    <comment>登录</comment>
+  </data>
+  <data name="LoginFCFail" xml:space="preserve">
+    <value>Login Fail！</value>
+    <comment>FC平台登录失败！</comment>
+  </data>
+  <data name="Logining" xml:space="preserve">
+    <value>Logining</value>
+    <comment>登录验证中</comment>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>Max</value>
+    <comment>最大化</comment>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>Min</value>
+    <comment>最小化</comment>
+  </data>
+  <data name="MyCloud" xml:space="preserve">
+    <value>My Cloud</value>
+    <comment>我的云盘</comment>
+  </data>
+  <data name="NullAccountOrPassword" xml:space="preserve">
+    <value>Null account or password!</value>
+    <comment>用户名或密码为空</comment>
+  </data>
+  <data name="NullCloudInfo" xml:space="preserve">
+    <value>Can't get cloud address!</value>
+    <comment>未能获取到云端地址</comment>
+  </data>
+  <data name="NullSelectedVM" xml:space="preserve">
+    <value>The vm you selected is offline!</value>
+    <comment>您选择的虚拟机未上线</comment>
+  </data>
+  <data name="NullTCAndVM" xml:space="preserve">
+    <value>There is no terminal and vm online!</value>
+    <comment>当前无终端和虚拟机上线</comment>
+  </data>
+  <data name="NullTeacherInfo" xml:space="preserve">
+    <value>Can't get teacher information!</value>
+    <comment>未能获取到教师信息</comment>
+  </data>
+  <data name="NullToken" xml:space="preserve">
+    <value>Can't get token information!</value>
+    <comment>未能获取到登录信息</comment>
+  </data>
+  <data name="NullVmWithFileDistribute" xml:space="preserve">
+    <value>There is no vm online,can't use file distribute function!</value>
+    <comment>无虚拟机上线，无法使用文件分发功能</comment>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Offline</value>
+    <comment>离线</comment>
+  </data>
+  <data name="OfflineLogin" xml:space="preserve">
+    <value>Offline</value>
+    <comment>离线登录</comment>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+    <comment>确定</comment>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+    <comment>在线</comment>
+  </data>
+  <data name="OnlineTest" xml:space="preserve">
+    <value>Online Test</value>
+    <comment>在线考试</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value> Password</value>
+    <comment>密码</comment>
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>Person</value>
+    <comment>人</comment>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Quit</value>
+    <comment>退出登录</comment>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+    <comment>刷新</comment>
+  </data>
+  <data name="ResourceShare" xml:space="preserve">
+    <value>Resource Share</value>
+    <comment>资源共享</comment>
+  </data>
+  <data name="RestartAllVM" xml:space="preserve">
+    <value>Attention:You are restarting all vms,do you want to go on?</value>
+    <comment>注意:您正在重启所有虚拟机，是否继续？</comment>
+  </data>
+  <data name="Restarting" xml:space="preserve">
+    <value>Restarting......</value>
+    <comment>正在重启，请稍后</comment>
+  </data>
+  <data name="RestartPartVm" xml:space="preserve">
+    <value>Attention:You are restarting,do you want to go on?</value>
+    <comment>注意：您正在重启部分虚拟机，是否继续?</comment>
+  </data>
+  <data name="RestartVmNULL" xml:space="preserve">
+    <value>terminal's vm is offline!</value>
+    <comment>号终端的虚拟机未启动</comment>
+  </data>
+  <data name="RestartVmPostfix" xml:space="preserve">
+    <value>terminal,do you want to go on?!</value>
+    <comment>号虚拟机，是否继续？</comment>
+  </data>
+  <data name="RestartVmPrefix" xml:space="preserve">
+    <value>Attention:Restart</value>
+    <comment>注意：重启</comment>
+  </data>
+  <data name="ScreenReplayWithBroadcast" xml:space="preserve">
+    <value>You can't use screen replay when broadcasting!</value>
+    <comment>屏幕广播的同时无法使用屏幕转播</comment>
+  </data>
+  <data name="SendCmd" xml:space="preserve">
+    <value>Is about to restart, please wait.</value>
+    <comment>即将重启，请您稍候。</comment>
+  </data>
+  <data name="SignInWithScreenBroadcast" xml:space="preserve">
+    <value>You can't use sign in function when braodcasting!</value>
+    <comment>屏幕广播的同时无法使用电子签到</comment>
+  </data>
+  <data name="SignInWithStudentShow" xml:space="preserve">
+    <value>You can't use sign in function when student showing!</value>
+    <comment>学生演示的同时无法使用电子签到</comment>
+  </data>
+  <data name="Smoke" xml:space="preserve">
+    <value>Smoke</value>
+    <comment>烟雾</comment>
+  </data>
+  <data name="TotalStudents" xml:space="preserve">
+    <value>Total Students</value>
+    <comment>上课总人数</comment>
+  </data>
+  <data name="UserLogin" xml:space="preserve">
+    <value>User Login</value>
+    <comment>用户登录</comment>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value> UserName</value>
+    <comment>用户名</comment>
+  </data>
+  <data name="WrongAccountOrPassword" xml:space="preserve">
+    <value>Wrong account or password!</value>
+    <comment>用户名或密码错误</comment>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+    <comment>操作</comment>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+    <comment>加入</comment>
+  </data>
+  <data name="AddedSameItem" xml:space="preserve">
+    <value>You have added the same item!</value>
+    <comment>已经添加了相同的项！</comment>
+  </data>
+  <data name="AddFile" xml:space="preserve">
+    <value>Add File</value>
+    <comment>添加文件</comment>
+  </data>
+  <data name="AddingOrder" xml:space="preserve">
+    <value>Adding Order</value>
+    <comment>正在加入编号……</comment>
+  </data>
+  <data name="AddOrder" xml:space="preserve">
+    <value>Add Order</value>
+    <comment>加入编号</comment>
+  </data>
+  <data name="AddOrderFail" xml:space="preserve">
+    <value>Add order fail!</value>
+    <comment>加入编号失败！</comment>
+  </data>
+  <data name="AddOrderSuccess" xml:space="preserve">
+    <value>Add order success!</value>
+    <comment>加入编号成功！</comment>
+  </data>
+  <data name="AddOrderTerminalIp" xml:space="preserve">
+    <value>Termina Ip:</value>
+    <comment>追加编号终端IP：</comment>
+  </data>
+  <data name="AddressFilter" xml:space="preserve">
+    <value>Address:</value>
+    <comment>过滤网址</comment>
+  </data>
+  <data name="AddTo" xml:space="preserve">
+    <value>Add</value>
+    <comment>添加</comment>
+  </data>
+  <data name="AddToOrder" xml:space="preserve">
+    <value>Add To Order</value>
+    <comment>追加编号</comment>
+  </data>
+  <data name="AirConditioner" xml:space="preserve">
+    <value>Air Conditioner</value>
+    <comment>空调</comment>
+  </data>
+  <data name="AllFilesFilter" xml:space="preserve">
+    <value>Files(*.*)|*.*</value>
+    <comment>所有文件(*.*)|*.*</comment>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Apply</value>
+    <comment>应用</comment>
+  </data>
+  <data name="Arefaction" xml:space="preserve">
+    <value>Arefaction</value>
+    <comment>除湿</comment>
+  </data>
+  <data name="AuthFileFilter" xml:space="preserve">
+    <value>AuthFile(*.xf)|*.xf|AllFiles(*.*)|*.*</value>
+    <comment>注册文件(*.xf)|*.xf|所有文件(*.*)|*.*</comment>
+  </data>
+  <data name="AuthSuccess" xml:space="preserve">
+    <value>Authorize Success!</value>
+    <comment>注册成功</comment>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>Auto</value>
+    <comment>自动</comment>
+  </data>
+  <data name="AutoOrder" xml:space="preserve">
+    <value>TC Order</value>
+    <comment>终端编号</comment>
+  </data>
+  <data name="BaseConfig" xml:space="preserve">
+    <value>Base</value>
+    <comment>基础设置</comment>
+  </data>
+  <data name="BlackList" xml:space="preserve">
+    <value>BlackList</value>
+    <comment>黑名单</comment>
+  </data>
+  <data name="BlackScreenWords" xml:space="preserve">
+    <value>Black Screen Words:</value>
+    <comment>黑屏肃静文字</comment>
+  </data>
+  <data name="Broadcasting" xml:space="preserve">
+    <value>Screen Broadcasting</value>
+    <comment>屏幕广播中</comment>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Browse</value>
+    <comment>浏览</comment>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Check</value>
+    <comment>验证</comment>
+  </data>
+  <data name="CheckFile" xml:space="preserve">
+    <value>Check File</value>
+    <comment>验证文件</comment>
+  </data>
+  <data name="CheckService" xml:space="preserve">
+    <value>Please check the service host!</value>
+    <comment>请验证服务器</comment>
+  </data>
+  <data name="ClassAndCourse" xml:space="preserve">
+    <value>Classes And Courses</value>
+    <comment>班级与课程</comment>
+  </data>
+  <data name="ClassModelColumns" xml:space="preserve">
+    <value>ClassModel Columns:</value>
+    <comment>班级模型列数</comment>
+  </data>
+  <data name="ClassRoomName" xml:space="preserve">
+    <value>ClassRoom Name:</value>
+    <comment>教室名称</comment>
+  </data>
+  <data name="ClassTemplate" xml:space="preserve">
+    <value>Class Template</value>
+    <comment>课程模板</comment>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+    <comment>清除</comment>
+  </data>
+  <data name="CloseTerminal" xml:space="preserve">
+    <value>Close Terminal</value>
+    <comment>关闭终端</comment>
+  </data>
+  <data name="CommonFunction" xml:space="preserve">
+    <value>Common</value>
+    <comment>常用功能</comment>
+  </data>
+  <data name="Cool" xml:space="preserve">
+    <value>Cool</value>
+    <comment>制冷</comment>
+  </data>
+  <data name="CreateVMByCurTemp" xml:space="preserve">
+    <value>Do you want to create vm by current template?</value>
+    <comment>是否根据当前模板创建虚拟机？</comment>
+  </data>
+  <data name="CurrentFile" xml:space="preserve">
+    <value>Current File</value>
+    <comment>当前文件</comment>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Down</value>
+    <comment>下</comment>
+  </data>
+  <data name="EndClass" xml:space="preserve">
+    <value>End Class</value>
+    <comment>下课</comment>
+  </data>
+  <data name="EquipmentControl" xml:space="preserve">
+    <value>Equipment Control</value>
+    <comment>设备控制</comment>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+    <comment>导出</comment>
+  </data>
+  <data name="FailLoginFC" xml:space="preserve">
+    <value>Login FusionCompute platform failed</value>
+    <comment>未能成功登录FC平台</comment>
+  </data>
+  <data name="FileDistribute" xml:space="preserve">
+    <value>SendFile</value>
+    <comment>文件分发</comment>
+  </data>
+  <data name="FileDistributeSavePath" xml:space="preserve">
+    <value>FileDistributePath:</value>
+    <comment>文件分发存放路径</comment>
+  </data>
+  <data name="FileDistributeWithNoTerminal" xml:space="preserve">
+    <value>You can't use file distribute function because there is no terminal online!</value>
+    <comment>无虚拟机上线，无法使用文件分发功能!</comment>
+  </data>
+  <data name="ForbidInternetType" xml:space="preserve">
+    <value>Type:</value>
+    <comment>禁网方式：</comment>
+  </data>
+  <data name="GetClassInfoFail" xml:space="preserve">
+    <value>Unable to get classes information!</value>
+    <comment>未能正确获取班级信息</comment>
+  </data>
+  <data name="GetClassRoomInfoFail" xml:space="preserve">
+    <value>Unable to get classroom information!</value>
+    <comment>未能正确获取教室信息</comment>
+  </data>
+  <data name="GetCourseInfoFail" xml:space="preserve">
+    <value>Unable to get course information!</value>
+    <comment>未能正确获取课程信息</comment>
+  </data>
+  <data name="GreeAirConditioner" xml:space="preserve">
+    <value>Gree Air Conditioner</value>
+    <comment>格力空调</comment>
+  </data>
+  <data name="Heat" xml:space="preserve">
+    <value>Heat</value>
+    <comment>制热</comment>
+  </data>
+  <data name="HostResourceNotEnough" xml:space="preserve">
+    <value>Host resource is not enough</value>
+    <comment>主机资源不足</comment>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>ID</value>
+    <comment>ID</comment>
+  </data>
+  <data name="InternetConfig" xml:space="preserve">
+    <value>Internet Config</value>
+    <comment>网络设置</comment>
+  </data>
+  <data name="InternetFilter" xml:space="preserve">
+    <value>URLFilter</value>
+    <comment>禁网过滤</comment>
+  </data>
+  <data name="IsEndClass" xml:space="preserve">
+    <value>The current class is in class,do you want to end class?</value>
+    <comment>该教室正在上课,是否下课？</comment>
+  </data>
+  <data name="LeftRightWind" xml:space="preserve">
+    <value>Left And Right</value>
+    <comment>左右扫风</comment>
+  </data>
+  <data name="LifeSpan" xml:space="preserve">
+    <value>Life Span:</value>
+    <comment>使用期限</comment>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Light</value>
+    <comment>灯</comment>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading......</value>
+    <comment>加载中</comment>
+  </data>
+  <data name="LoseInfo" xml:space="preserve">
+    <value>Lose some information,please check agagin!</value>
+    <comment>缺少必要信息，请检查！</comment>
+  </data>
+  <data name="MachineCode" xml:space="preserve">
+    <value>Machine Code:</value>
+    <comment>机器码</comment>
+  </data>
+  <data name="MainNavigateFunction" xml:space="preserve">
+    <value>Navigate</value>
+    <comment>主导航功能</comment>
+  </data>
+  <data name="MaxCreate" xml:space="preserve">
+    <value>Max Create Terminal:</value>
+    <comment>最大虚拟机创建数：</comment>
+  </data>
+  <data name="MediaAirConditioner" xml:space="preserve">
+    <value>Media Air Conditioner</value>
+    <comment>美的空调</comment>
+  </data>
+  <data name="MergeRoom" xml:space="preserve">
+    <value>MergeRoom</value>
+    <comment>合并教室</comment>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Model</value>
+    <comment>模式</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>姓名</comment>
+  </data>
+  <data name="NullPenTool" xml:space="preserve">
+    <value>Can't find tool pen!</value>
+    <comment>未能找到画笔工具</comment>
+  </data>
+  <data name="NullSelectedStudent" xml:space="preserve">
+    <value>Please selected a terminal!</value>
+    <comment>请先选中一名学生坐席</comment>
+  </data>
+  <data name="NullStudentSignIn" xml:space="preserve">
+    <value>There is no students signed!</value>
+    <comment>未有学生进行签到！</comment>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Number</value>
+    <comment>学号</comment>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>Off</value>
+    <comment>关</comment>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>On</value>
+    <comment>开</comment>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Order</value>
+    <comment>编号</comment>
+  </data>
+  <data name="OrderFailBecauseOfOnline" xml:space="preserve">
+    <value>The terminal reorder is already online,you can't reorder it！</value>
+    <comment>您所重新编号的终端已上线，不能加入编号！</comment>
+  </data>
+  <data name="Ordering" xml:space="preserve">
+    <value>Ordering,the number of ordered:</value>
+    <comment>终端编号中，被编号终端数：</comment>
+  </data>
+  <data name="PlatformInformation" xml:space="preserve">
+    <value>Platform</value>
+    <comment>平台信息</comment>
+  </data>
+  <data name="Projector" xml:space="preserve">
+    <value>Projector</value>
+    <comment>投影仪</comment>
+  </data>
+  <data name="Projector1" xml:space="preserve">
+    <value>Projector1</value>
+    <comment>投影仪1</comment>
+  </data>
+  <data name="Projector2" xml:space="preserve">
+    <value>Projector2</value>
+    <comment>投影仪2</comment>
+  </data>
+  <data name="Projector3" xml:space="preserve">
+    <value>Projector3</value>
+    <comment>投影仪3</comment>
+  </data>
+  <data name="ProjectorControl" xml:space="preserve">
+    <value>Projector Control</value>
+    <comment>投影仪控制</comment>
+  </data>
+  <data name="ReadyToLeaveFileDistribtePage" xml:space="preserve">
+    <value>File is sending,do you want to leave this page?</value>
+    <comment>正在下发文件，是否确定离开此页面？</comment>
+  </data>
+  <data name="RemoveFromNavigate" xml:space="preserve">
+    <value>function from navigate?</value>
+    <comment>功能从导航移除吗？</comment>
+  </data>
+  <data name="ReOrder" xml:space="preserve">
+    <value>ReOrder</value>
+    <comment>重新编号</comment>
+  </data>
+  <data name="ReSend" xml:space="preserve">
+    <value>Resend</value>
+    <comment>重新发送</comment>
+  </data>
+  <data name="ResourceIsBusy" xml:space="preserve">
+    <value>Current resource is busy,please try again later</value>
+    <comment>当前资源被占用，请稍后</comment>
+  </data>
+  <data name="RestartTerminal" xml:space="preserve">
+    <value>Restart Terminal</value>
+    <comment>重启终端</comment>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Return</value>
+    <comment>还原</comment>
+  </data>
+  <data name="SchoolName" xml:space="preserve">
+    <value>School Name:</value>
+    <comment>学校名称</comment>
+  </data>
+  <data name="ScreebBroadcastWithScreenReplay" xml:space="preserve">
+    <value>You can't use screen broadcast when screen replaying!</value>
+    <comment>屏幕转播的同时不支持屏幕广播</comment>
+  </data>
+  <data name="Screen" xml:space="preserve">
+    <value>Screen</value>
+    <comment>幕布</comment>
+  </data>
+  <data name="ScreenBroadcast" xml:space="preserve">
+    <value>Broadcast</value>
+    <comment>屏幕广播</comment>
+  </data>
+  <data name="ScreenBroadcastFrame" xml:space="preserve">
+    <value>Broadcast Frame:</value>
+    <comment>屏幕广播帧率：</comment>
+  </data>
+  <data name="ScreenBroadcastQuality" xml:space="preserve">
+    <value>Broadcast Quality:</value>
+    <comment>屏幕广播画质：</comment>
+  </data>
+  <data name="ScreenBroadcastStop" xml:space="preserve">
+    <value>StopScreenBroadcast</value>
+    <comment>关闭广播</comment>
+  </data>
+  <data name="ScreenBroadcastWithStudentShow" xml:space="preserve">
+    <value>You can't use screen broadcast when studeng showing!</value>
+    <comment>学生演示的同时不支持屏幕广播</comment>
+  </data>
+  <data name="ScreenCapSavePath" xml:space="preserve">
+    <value>ScreenCapSavePath:</value>
+    <comment>屏幕录制存放路径：</comment>
+  </data>
+  <data name="ScreenConfig" xml:space="preserve">
+    <value>Screen</value>
+    <comment>画质设置</comment>
+  </data>
+  <data name="ScreenRelpayTerminal" xml:space="preserve">
+    <value>Screen Relpay Terminal</value>
+    <comment>屏幕转播终端</comment>
+  </data>
+  <data name="ScreenReplayWithStudentShow" xml:space="preserve">
+    <value>You can't use screen replay when using student showing!</value>
+    <comment>学生演示的同时不支持屏幕转播</comment>
+  </data>
+  <data name="ScreenView" xml:space="preserve">
+    <value>ScnView</value>
+    <comment>屏幕查看</comment>
+  </data>
+  <data name="ScreenViewFrame" xml:space="preserve">
+    <value>Screen View Frame:</value>
+    <comment>屏幕查看帧率：</comment>
+  </data>
+  <data name="ScreenViewTerminal" xml:space="preserve">
+    <value>Screen view terminal </value>
+    <comment>屏幕查看终端</comment>
+  </data>
+  <data name="SelectAuthFile" xml:space="preserve">
+    <value>Please select the authorize file</value>
+    <comment>请选择注册文件</comment>
+  </data>
+  <data name="SelectClass" xml:space="preserve">
+    <value>Select Class</value>
+    <comment>选择班级</comment>
+  </data>
+  <data name="SelectClassAndCourse" xml:space="preserve">
+    <value>Please select classes and courses first!</value>
+    <comment>请先选择班级和课程信息！</comment>
+  </data>
+  <data name="SelectClassRoom" xml:space="preserve">
+    <value>Select ClassRoom</value>
+    <comment>选择教室</comment>
+  </data>
+  <data name="SelectCourse" xml:space="preserve">
+    <value>Select Course</value>
+    <comment>选择课程</comment>
+  </data>
+  <data name="SelectFiles" xml:space="preserve">
+    <value>Please select files</value>
+    <comment>请选择文件</comment>
+  </data>
+  <data name="SelectNullClassRoom" xml:space="preserve">
+    <value>Current select classroom is null,please try again!</value>
+    <comment>当前选择的教室为空，请重新选择！</comment>
+  </data>
+  <data name="SelectNullSchool" xml:space="preserve">
+    <value>Current select school is null,please try again!</value>
+    <comment>当前选择的学校为空，请重新选择！</comment>
+  </data>
+  <data name="SelectSavePath" xml:space="preserve">
+    <value>Please select save path</value>
+    <comment>请选择存放路径</comment>
+  </data>
+  <data name="SelectScreenReplayStudent" xml:space="preserve">
+    <value>Please select screen replay source!</value>
+    <comment>请选择转播源学生坐席</comment>
+  </data>
+  <data name="SelectSendFile" xml:space="preserve">
+    <value>Please select send files</value>
+    <comment>请先选择发送文件！</comment>
+  </data>
+  <data name="SendFileSuccess" xml:space="preserve">
+    <value>Send file success</value>
+    <comment>发送文件成功</comment>
+  </data>
+  <data name="SendStop" xml:space="preserve">
+    <value>Send Stop</value>
+    <comment>已停止</comment>
+  </data>
+  <data name="SendSuccess" xml:space="preserve">
+    <value>Send Success</value>
+    <comment>发送成功</comment>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>Order</value>
+    <comment>序号</comment>
+  </data>
+  <data name="ServiceHost" xml:space="preserve">
+    <value>Service Host:</value>
+    <comment>服务地址</comment>
+  </data>
+  <data name="SetClock" xml:space="preserve">
+    <value>Set sign in time</value>
+    <comment>设置签到时间</comment>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Showing</value>
+    <comment>演示中</comment>
+  </data>
+  <data name="SignedIn" xml:space="preserve">
+    <value>SignedIn</value>
+    <comment>已签到</comment>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>SignIn</value>
+    <comment>电子签到</comment>
+  </data>
+  <data name="SigningToExport" xml:space="preserve">
+    <value>Now is signing,you can't export report!</value>
+    <comment>正在进行签到，无法导出！</comment>
+  </data>
+  <data name="SigningToQuit" xml:space="preserve">
+    <value>Now is signing,are you sure to quit?</value>
+    <comment>正在进行签到，是否退出？</comment>
+  </data>
+  <data name="Situation" xml:space="preserve">
+    <value>Situation</value>
+    <comment>情景模式</comment>
+  </data>
+  <data name="SmartConrrol" xml:space="preserve">
+    <value>Smart Control</value>
+    <comment>智能控制</comment>
+  </data>
+  <data name="SmartRoom" xml:space="preserve">
+    <value>Smart Room</value>
+    <comment>智慧教室</comment>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>Sound:</value>
+    <comment>音频源</comment>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+    <comment>开始</comment>
+  </data>
+  <data name="StartSend" xml:space="preserve">
+    <value>Start Send</value>
+    <comment>开始发送</comment>
+  </data>
+  <data name="StartSignIn" xml:space="preserve">
+    <value>Start SignIn</value>
+    <comment>开始签到</comment>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+    <comment>状态</comment>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+    <comment>停止</comment>
+  </data>
+  <data name="StopSend" xml:space="preserve">
+    <value>Stop Send</value>
+    <comment>停止发送</comment>
+  </data>
+  <data name="StopSignIn" xml:space="preserve">
+    <value>Stop SignIn</value>
+    <comment>结束签到</comment>
+  </data>
+  <data name="StudentShow" xml:space="preserve">
+    <value>StuShow</value>
+    <comment>学生演示</comment>
+  </data>
+  <data name="StudentShowStop" xml:space="preserve">
+    <value>StopShow</value>
+    <comment>关闭演示</comment>
+  </data>
+  <data name="StudentShowWithScreenBroadcast" xml:space="preserve">
+    <value>You can't use student show when using screen broadcast!</value>
+    <comment>屏幕广播的同时不能开启学生演示!</comment>
+  </data>
+  <data name="StudentShowWithScreenReplay" xml:space="preserve">
+    <value>You can't use student show when using screen replay!</value>
+    <comment>屏幕转播的同时不能开启学生演示</comment>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+    <comment>成功</comment>
+  </data>
+  <data name="SupportFunction" xml:space="preserve">
+    <value>Support</value>
+    <comment>辅助功能</comment>
+  </data>
+  <data name="SureTo" xml:space="preserve">
+    <value>Are you sure remove</value>
+    <comment>确定要将</comment>
+  </data>
+  <data name="SureToCloseTerminal" xml:space="preserve">
+    <value>Are you sure to close terminal?</value>
+    <comment>确定要关闭终端？</comment>
+  </data>
+  <data name="SureToRebootTerminal" xml:space="preserve">
+    <value>Are you sure to reboot terminal?</value>
+    <comment>确定要重启终端？</comment>
+  </data>
+  <data name="SwitchState" xml:space="preserve">
+    <value>SwitchState</value>
+    <comment>开关状态</comment>
+  </data>
+  <data name="TCIP" xml:space="preserve">
+    <value>Terminal IP</value>
+    <comment>终端IP</comment>
+  </data>
+  <data name="TCMac" xml:space="preserve">
+    <value>Terminal MAC</value>
+    <comment>终端MAC</comment>
+  </data>
+  <data name="TCNumber" xml:space="preserve">
+    <value>Terminal Number:</value>
+    <comment>终端号码：</comment>
+  </data>
+  <data name="Temperature" xml:space="preserve">
+    <value>Temperature</value>
+    <comment>温度</comment>
+  </data>
+  <data name="Terminal" xml:space="preserve">
+    <value>Terminal</value>
+    <comment>终端</comment>
+  </data>
+  <data name="TerminalCount" xml:space="preserve">
+    <value>Terminal Number:</value>
+    <comment>终端数</comment>
+  </data>
+  <data name="TerminalManage" xml:space="preserve">
+    <value>Terminal</value>
+    <comment>终端管理</comment>
+  </data>
+  <data name="TerminalNumber" xml:space="preserve">
+    <value>Terminal Number</value>
+    <comment>终端编号</comment>
+  </data>
+  <data name="TerminalOrder" xml:space="preserve">
+    <value>Terminal Order</value>
+    <comment>终端编号</comment>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+    <comment>时间</comment>
+  </data>
+  <data name="Tip" xml:space="preserve">
+    <value>Tip</value>
+    <comment>提示</comment>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+    <comment>共</comment>
+  </data>
+  <data name="TotalPercent" xml:space="preserve">
+    <value>Total Percent</value>
+    <comment>总进度</comment>
+  </data>
+  <data name="UnReturn" xml:space="preserve">
+    <value>UnReturn</value>
+    <comment>不还原</comment>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Up</value>
+    <comment>上</comment>
+  </data>
+  <data name="UpDownWind" xml:space="preserve">
+    <value>Up And Down</value>
+    <comment>上下扫风</comment>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+    <comment>网址</comment>
+  </data>
+  <data name="VMReturn" xml:space="preserve">
+    <value>Return to original vm:</value>
+    <comment>虚拟机还原</comment>
+  </data>
+  <data name="WhiteList" xml:space="preserve">
+    <value>WhiteList</value>
+    <comment>白名单</comment>
+  </data>
+  <data name="Wind" xml:space="preserve">
+    <value>Wind</value>
+    <comment>送风</comment>
+  </data>
+  <data name="ForbidApp" xml:space="preserve">
+    <value>Forbid App</value>
+    <comment>禁止应用</comment>
+  </data>
+  <data name="App" xml:space="preserve">
+    <value>Application</value>
+    <comment>应用</comment>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Application:</value>
+    <comment>应用:</comment>
+  </data>
+  <data name="BorbidAppType" xml:space="preserve">
+    <value>Type:</value>
+    <comment>禁止方式</comment>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+    <comment>选择</comment>
+  </data>
+  <data name="AddNull" xml:space="preserve">
+    <value>Do not add an empty item!</value>
+    <comment>请勿添加空项</comment>
+  </data>
+  <data name="AddSameItem" xml:space="preserve">
+    <value>Do not add duplicate items!</value>
+    <comment>请勿添加重复项</comment>
+  </data>
+  <data name="AppNameNull" xml:space="preserve">
+    <value>Program name cannot be empty</value>
+    <comment>程序名不能为空</comment>
+  </data>
+  <data name="SelectFilePath" xml:space="preserve">
+    <value>Please select a file to distribute the storage path!</value>
+    <comment>请选择文件分发存放路径</comment>
+  </data>
+  <data name="SelectRecordePath" xml:space="preserve">
+    <value>Please select the screen recording storage path!</value>
+    <comment>请选择屏幕录制存放路径</comment>
+  </data>
+  <data name="SetUsefulFz" xml:space="preserve">
+    <value>The effective range of 1~60 frame</value>
+    <comment>帧率有效值范围1~60</comment>
+  </data>
+  <data name="SystemConfig" xml:space="preserve">
+    <value>System settings</value>
+    <comment>系统设置</comment>
+  </data>
+  <data name="MergingRoomWithTcOrder" xml:space="preserve">
+    <value>You can't use terminal order when merging room!</value>
+    <comment>合并教室的时候无法进行编号！</comment>
+  </data>
+  <data name="AddZeroError" xml:space="preserve">
+    <value>You can't add number zero!</value>
+    <comment>加入编号不能为0！</comment>
+  </data>
+  <data name="ExistSameAddNumber" xml:space="preserve">
+    <value>Add number already exist!</value>
+    <comment>已存在相同编号！</comment>
+  </data>
+  <data name="VM" xml:space="preserve">
+    <value>VM</value>
+    <comment>虚拟机</comment>
+  </data>
+  <data name="ExeFliter" xml:space="preserve">
+    <value>App(*.exe)|*.exe</value>
+    <comment>应用文件(*.exe)|*.exe</comment>
+  </data>
+  <data name="InfoIncomplete" xml:space="preserve">
+    <value>Info Incomplete!</value>
+    <comment>信息不完整</comment>
+  </data>
+  <data name="SignInInfo" xml:space="preserve">
+    <value>Sign Infomation</value>
+    <comment>签到信息</comment>
+  </data>
+  <data name="CheckAndHide" xml:space="preserve">
+    <value>Don't show next time!</value>
+    <comment>勾选此项，不在显示！</comment>
+  </data>
+  <data name="Trial" xml:space="preserve">
+    <value>Trial</value>
+    <comment>试用版</comment>
+  </data>
+  <data name="AuthMsg" xml:space="preserve">
+    <value>The application is </value>
+    <comment>您现在当前试用的是</comment>
+  </data>
+  <data name="AuthFail" xml:space="preserve">
+    <value>Authorize Fail!</value>
+    <comment>注册失败</comment>
+  </data>
+  <data name="NotSignIn" xml:space="preserve">
+    <value>Not Sign In</value>
+    <comment>未签到</comment>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Path:</value>
+    <comment>路径：</comment>
+  </data>
+  <data name="RestartAllFcVms" xml:space="preserve">
+    <value>Will restart the classroom all virtual machines, whether to continue?</value>
+    <comment>将要重启本教室所有虚拟机，是否继续？</comment>
+  </data>
+  <data name="NoneVmsStart" xml:space="preserve">
+    <value>You have not yet created a virtual machine or FC platform login failed!</value>
+    <comment>您尚未创建虚拟机</comment>
+  </data>
+  <data name="CdmNull" xml:space="preserve">
+    <value>Your Cdm Address is null</value>
+    <comment>您的CDM地址为空</comment>
+  </data>
+  <data name="AudioBroadcast" xml:space="preserve">
+    <value>Audio</value>
+    <comment>音频广播</comment>
+  </data>
+  <data name="ChangeClass" xml:space="preserve">
+    <value>ChangeClass</value>
+    <comment>一键换课</comment>
+  </data>
+  <data name="ClassModel" xml:space="preserve">
+    <value>ClassModel</value>
+    <comment>班级模型</comment>
+  </data>
+  <data name="DrawBroad" xml:space="preserve">
+    <value>DrawBroad</value>
+    <comment>网络画板</comment>
+  </data>
+  <data name="RestartVM" xml:space="preserve">
+    <value>RestartVM</value>
+    <comment>重启虚拟机</comment>
+  </data>
+  <data name="ScreenCapture" xml:space="preserve">
+    <value>ScnCapture</value>
+    <comment>屏幕录制</comment>
+  </data>
+  <data name="ScreenReplay" xml:space="preserve">
+    <value>ScrReplay</value>
+    <comment>屏幕转播</comment>
+  </data>
+  <data name="TdChalk" xml:space="preserve">
+    <value>TdChalk</value>
+    <comment>电子教鞭</comment>
+  </data>
+  <data name="NullPdfTool" xml:space="preserve">
+    <value>With out help file</value>
+    <comment>未找到帮助文档!</comment>
+  </data>
+  <data name="WidthOutPdf" xml:space="preserve">
+    <value>Not installed to open the PDF program!</value>
+    <comment>未安装可打开PDF的程序！</comment>
+  </data>
+  <data name="HuaweiErrorCode" xml:space="preserve">
+    <value>Error code</value>
+    <comment>错误码为</comment>
+  </data>
+  <data name="HuaweiLinkError" xml:space="preserve">
+    <value>Init auth instance fail,please retry</value>
+    <comment>初始化授权接口失败，请重试</comment>
+  </data>
+  <data name="ExportMac" xml:space="preserve">
+    <value>Derived information</value>
+    <comment>导出信息</comment>
+  </data>
+  <data name="MacStart" xml:space="preserve">
+    <value>Mac start address:</value>
+    <comment>Mac开始地址</comment>
+  </data>
+  <data name="MacStartError" xml:space="preserve">
+    <value>Mac address start error!</value>
+    <comment>MAC起始位置错误！</comment>
+  </data>
+  <data name="FileReceive" xml:space="preserve">
+    <value>FileReceive</value>
+    <comment>文件接收</comment>
+  </data>
+  <data name="FileReceivePath" xml:space="preserve">
+    <value>FileSubmitPath:</value>
+    <comment>作业提交路径</comment>
+  </data>
+  <data name="FileReceiveSavePath" xml:space="preserve">
+    <value>FileSubmit path</value>
+    <comment>作业提交路径</comment>
+  </data>
+  <data name="VMIP" xml:space="preserve">
+    <value>VMIP</value>
+    <comment>虚拟机IP</comment>
+  </data>
+  <data name="VMMAC" xml:space="preserve">
+    <value>VMMAC</value>
+    <comment>虚拟机MAC</comment>
+  </data>
+  <data name="ReveiceOk" xml:space="preserve">
+    <value>Reveiced</value>
+    <comment>接收完成</comment>
+  </data>
+  <data name="BroadcastWithOrder" xml:space="preserve">
+    <value>You can't order when screen broadcasting!</value>
+    <comment>正在进行屏幕广播，无法进行编号！</comment>
+  </data>
+  <data name="Cdmaddr" xml:space="preserve">
+    <value>Cdm address</value>
+    <comment>Cdm地址</comment>
+  </data>
+  <data name="Fcaddr" xml:space="preserve">
+    <value>FC address</value>
+    <comment>FC地址</comment>
+  </data>
+  <data name="FCuser" xml:space="preserve">
+    <value>FC info</value>
+    <comment>FC账号</comment>
+  </data>
+  <data name="FileIsUsing" xml:space="preserve">
+    <value>Can't check auth because of auth file is using!</value>
+    <comment>文件正在被使用，无法验证！</comment>
+  </data>
+  <data name="IsRestarting" xml:space="preserve">
+    <value>Restart the virtual machine. Please try again later.</value>
+    <comment>正在重启虚拟机，请稍后重试</comment>
+  </data>
+  <data name="NullVms" xml:space="preserve">
+    <value>There is no vm online</value>
+    <comment>虚拟机未上线</comment>
+  </data>
+  <data name="FileNotExist" xml:space="preserve">
+    <value>There is no such file!</value>
+    <comment>文件不存在</comment>
+  </data>
+  <data name="TimeOut" xml:space="preserve">
+    <value>Time Out!</value>
+    <comment>连接超时</comment>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+    <comment>打开</comment>
+  </data>
+  <data name="FCpathError" xml:space="preserve">
+    <value>Your FC path error</value>
+    <comment>FC地址错误</comment>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>Day</value>
+    <comment>天</comment>
+  </data>
+  <data name="RoomNumber" xml:space="preserve">
+    <value>RoomNumber:</value>
+    <comment>教室编号</comment>
+  </data>
+  <data name="FCpwd" xml:space="preserve">
+    <value>FC Password</value>
+    <comment>FC密码</comment>
+  </data>
+  <data name="ErrorTime" xml:space="preserve">
+    <value>System time error,please reset the time and try again!</value>
+    <comment>检测到系统时间设置错误，无法开启软件！</comment>
+  </data>
+  <data name="UseTimeEnd" xml:space="preserve">
+    <value>Your probationary time is end，dou you want to register?</value>
+    <comment>试用时间已到期，是否前往注册？</comment>
+  </data>
+  <data name="UseTime" xml:space="preserve">
+    <value>Limit Time:</value>
+    <comment>期限：</comment>
+  </data>
+  <data name="UseState" xml:space="preserve">
+    <value>Limit time</value>
+    <comment>试用</comment>
+  </data>
+  <data name="OnlineStudents" xml:space="preserve">
+    <value>OnlineStudent</value>
+    <comment>在线人数</comment>
+  </data>
+  <data name="OnlineTerminals" xml:space="preserve">
+    <value>OnlineTerminals</value>
+    <comment>在线终端数</comment>
+  </data>
+  <data name="FcCreateNumber" xml:space="preserve">
+    <value>The Create number：</value>
+    <comment>虚拟机创建个数</comment>
+  </data>
+  <data name="MaxCreateNumber" xml:space="preserve">
+    <value>Max virtual machine creation</value>
+    <comment>最大虚拟机创建数为</comment>
+  </data>
+  <data name="TerminalState" xml:space="preserve">
+    <value>Terminal State</value>
+    <comment>终端状态</comment>
+  </data>
+  <data name="VMState" xml:space="preserve">
+    <value>VM State</value>
+    <comment>虚拟机状态</comment>
+  </data>
+  <data name="ExistSameIP" xml:space="preserve">
+    <value>The input ip has already online!</value>
+    <comment>此IP对应终端已上线，无法添加！</comment>
+  </data>
+  <data name="ErrorCdm" xml:space="preserve">
+    <value>CDM Error!</value>
+    <comment>CDM地址错误</comment>
+  </data>
+  <data name="NetError" xml:space="preserve">
+    <value>Because of network reasons, can not check the progress of your.</value>
+    <comment>因为网络原因，无法为您查询进度。</comment>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Are you sure to quit?</value>
+    <comment>确定退出？</comment>
+  </data>
+  <data name="Quiting" xml:space="preserve">
+    <value>Quiting</value>
+    <comment>软件退出中</comment>
+  </data>
+  <data name="FcCtrl" xml:space="preserve">
+    <value>FusionCompute</value>
+    <comment>FC平台</comment>
+  </data>
+  <data name="sure" xml:space="preserve">
+    <value>vms will restart,are you sure?</value>
+    <comment>台,是否重启？</comment>
+  </data>
+  <data name="vms" xml:space="preserve">
+    <value>vms,</value>
+    <comment>台，其中可重启</comment>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>You have</value>
+    <comment>您共有</comment>
+  </data>
+  <data name="ResetVM" xml:space="preserve">
+    <value>ResetVM</value>
+    <comment>虚拟机管理</comment>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+    <comment>IP</comment>
+  </data>
+  <data name="VmName" xml:space="preserve">
+    <value>VM Name</value>
+    <comment>名称</comment>
+  </data>
+  <data name="Boot" xml:space="preserve">
+    <value>Boot</value>
+    <comment>启动</comment>
+  </data>
+  <data name="Reboot" xml:space="preserve">
+    <value>Reboot</value>
+    <comment>重启</comment>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>All</value>
+    <comment>全选</comment>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+    <comment>还原</comment>
+  </data>
+  <data name="CNAinfo" xml:space="preserve">
+    <value>CNA settings</value>
+    <comment>CNA配置</comment>
+  </data>
+  <data name="BMCInfo" xml:space="preserve">
+    <value>BMC infomation</value>
+    <comment>BMC信息</comment>
+  </data>
+  <data name="CNAInfo2" xml:space="preserve">
+    <value>CNA infomation</value>
+    <comment>CNA设置</comment>
+  </data>
+  <data name="SwitchSetting" xml:space="preserve">
+    <value>Switch machine settings</value>
+    <comment>开关机设置</comment>
+  </data>
+  <data name="MaxFileLength" xml:space="preserve">
+    <value>Add file fail because file name length large than </value>
+    <comment>文件名称长度不能超过64！</comment>
+  </data>
+  <data name="ServiceManger" xml:space="preserve">
+    <value>Service</value>
+    <comment>服务器管理</comment>
+  </data>
+  <data name="SureToReboot" xml:space="preserve">
+    <value>Sure to reboot?</value>
+    <comment>是否重启选中的虚拟机？</comment>
+  </data>
+  <data name="SureToReset" xml:space="preserve">
+    <value>Sure to reset？</value>
+    <comment>是否还原选中的虚拟机？</comment>
+  </data>
+  <data name="SureToStart" xml:space="preserve">
+    <value>Sure to start?</value>
+    <comment>是否启动选中的虚拟机？</comment>
+  </data>
+  <data name="SureToStop" xml:space="preserve">
+    <value>Sure to stop?</value>
+    <comment>是否关闭选中的虚拟机？</comment>
+  </data>
+  <data name="NullClassTemplate" xml:space="preserve">
+    <value>There is no class template!</value>
+    <comment>未查询到虚拟机模板！</comment>
+  </data>
+  <data name="CloseService" xml:space="preserve">
+    <value>Close Service</value>
+    <comment>关闭服务器</comment>
+  </data>
+  <data name="OpenService" xml:space="preserve">
+    <value>Open Service</value>
+    <comment>打开服务器</comment>
+  </data>
+  <data name="MessageSend" xml:space="preserve">
+    <value>Information has been sent</value>
+    <comment>信息已发送</comment>
+  </data>
+  <data name="NullExe" xml:space="preserve">
+    <value>Missing some of the system must be the tool that can not be sent</value>
+    <comment>缺少某些系统必须的工具，无法发送</comment>
+  </data>
+  <data name="WithHost" xml:space="preserve">
+    <value>The template you have selected has not been bound to the host.</value>
+    <comment>您所选择的模板尚未绑定主机</comment>
+  </data>
+  <data name="CheckError" xml:space="preserve">
+    <value>Check service error!</value>
+    <comment>验证服务器错误</comment>
+  </data>
+  <data name="LoseSchool" xml:space="preserve">
+    <value>Lose schools information!</value>
+    <comment>缺少学校信息</comment>
+  </data>
+  <data name="NullCna" xml:space="preserve">
+    <value>Miss CNA infomation</value>
+    <comment>缺少CNA信息，请更新CNA信息后重试</comment>
+  </data>
+  <data name="AddIn" xml:space="preserve">
+    <value>Add</value>
+    <comment>添加</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Del</value>
+    <comment>删除</comment>
+  </data>
+  <data name="BMCIp" xml:space="preserve">
+    <value>BMC Ip</value>
+    <comment>BMC Ip</comment>
+  </data>
+  <data name="BMCUse" xml:space="preserve">
+    <value>BMC Username</value>
+    <comment>BMC Username</comment>
+  </data>
+  <data name="CNAIp" xml:space="preserve">
+    <value>CNA IP</value>
+    <comment>CNA IP</comment>
+  </data>
+  <data name="CNAUse" xml:space="preserve">
+    <value>CNA Username</value>
+    <comment>CNA Username</comment>
+  </data>
+  <data name="BmcPwd" xml:space="preserve">
+    <value>BMC password</value>
+    <comment>BMC 密码</comment>
+  </data>
+  <data name="CnaPwd" xml:space="preserve">
+    <value>CNA password</value>
+    <comment>CNA 密码</comment>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+    <comment>移除</comment>
+  </data>
+  <data name="ServiceInfoAdd" xml:space="preserve">
+    <value>Add</value>
+    <comment>服务器信息添加</comment>
+  </data>
+  <data name="ServiceInfoList" xml:space="preserve">
+    <value>Service Infomation</value>
+    <comment>服务器信息列表</comment>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+    <comment>检查更新</comment>
+  </data>
+  <data name="LoginOverTime" xml:space="preserve">
+    <value>Login overtime！</value>
+    <comment>登录超时</comment>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>Login fail!</value>
+    <comment>登录失败</comment>
+  </data>
+  <data name="CloudUrlNull" xml:space="preserve">
+    <value>Cloud url is null !</value>
+    <comment>云盘地址为空！</comment>
+  </data>
+  <data name="HomeWorkUrlNull" xml:space="preserve">
+    <value>HomeWork url is null !</value>
+    <comment>作业空间地址为空！</comment>
+  </data>
+  <data name="OnlineTestUrlNull" xml:space="preserve">
+    <value>OnlineTest url is null !</value>
+    <comment>在线测试地址为空！</comment>
+  </data>
+  <data name="ShareResourceUrlNull" xml:space="preserve">
+    <value>ShareResource url is null !</value>
+    <comment>资源共享地址为空！</comment>
+  </data>
+  <data name="MinFileLength" xml:space="preserve">
+    <value>File length is zero！</value>
+    <comment>文件长度为0！</comment>
+  </data>
+  <data name="SameIpTerminal" xml:space="preserve">
+    <value>There is already a same terminal whih the ip that input!</value>
+    <comment>已存在相同IP的终端！</comment>
+  </data>
+  <data name="NullTerminals" xml:space="preserve">
+    <value>There is no terminals!</value>
+    <comment>终端未上线！</comment>
+  </data>
+  <data name="NullClassNumber" xml:space="preserve">
+    <value>Please input classroom number!</value>
+    <comment>请输入教室编号!</comment>
+  </data>
+  <data name="FileReceivePathNull" xml:space="preserve">
+    <value>File submit path is empty!</value>
+    <comment>作业提交路径不能为空！</comment>
+  </data>
+  <data name="ScreenCapPathNull" xml:space="preserve">
+    <value>Screen capture path is empty!</value>
+    <comment>屏幕录制路径不能为空！</comment>
+  </data>
+  <data name="FileReceivePathNotExist" xml:space="preserve">
+    <value>File submit path do not exist!</value>
+    <comment>作业提交路径不存在！</comment>
+  </data>
+  <data name="ScreenCapPathNotExist" xml:space="preserve">
+    <value>Screen capture path dose not exist!</value>
+    <comment>屏幕录制路径不存在！</comment>
+  </data>
+  <data name="TerminalOrderWithNetPlay" xml:space="preserve">
+    <value>You can't use order when netplaying!</value>
+    <comment>开启网络影院时无法进行编号！</comment>
+  </data>
+  <data name="RoomNumberValue" xml:space="preserve">
+    <value>ClassRoom number range 1~1000</value>
+    <comment>教室编号范围1~1000</comment>
+  </data>
+  <data name="CreateVMZero" xml:space="preserve">
+    <value>Create number must greate than zero!</value>
+    <comment>创建虚拟机数必须大于0!</comment>
+  </data>
+  <data name="SignInExportError" xml:space="preserve">
+    <value>Can't find excel</value>
+    <comment>未找到Excel工具</comment>
+  </data>
+  <data name="ExportLastSignIn" xml:space="preserve">
+    <value>export last signin information?</value>
+    <comment>是否导出上次签到信息?</comment>
+  </data>
+  <data name="CreateVmNumberNull" xml:space="preserve">
+    <value>Please input create vm number!</value>
+    <comment>请输入创建虚拟机数!</comment>
+  </data>
+  <data name="ErrorFcPath" xml:space="preserve">
+    <value>Wrong fusion compute url!</value>
+  </data>
+  <data name="ForbitNetWithChange" xml:space="preserve">
+    <value>Please release the net forbidden first!</value>
+    <comment>请先接触禁止上网再切换!</comment>
+  </data>
+  <data name="FileSubmit" xml:space="preserve">
+    <value>FileSubmit</value>
+    <comment>作业提交</comment>
+  </data>
+  <data name="ErrorMac" xml:space="preserve">
+    <value>Error mac!</value>
+    <comment>mac地址不合法！</comment>
+  </data>
+  <data name="ChangeRoomNumber" xml:space="preserve">
+    <value>Be sure to class over and reply after reboot!</value>
+    <comment>修改教室编号请先下课，重启软件后生效！</comment>
+  </data>
+  <data name="MoreThanTwoClassVM" xml:space="preserve">
+    <value>There is already more than two classroom's vms running!</value>
+    <comment>已有两个不同教室编号的虚拟机存在！</comment>
+  </data>
+  <data name="SendFail" xml:space="preserve">
+    <value>SendFail</value>
+    <comment>发送失败</comment>
+  </data>
+  <data name="Fail" xml:space="preserve">
+    <value>Fail</value>
+    <comment>失败</comment>
+  </data>
+  <data name="FileUsing" xml:space="preserve">
+    <value>File is using,send fail!</value>
+    <comment>文件正在使用，发送失败！</comment>
+  </data>
+  <data name="SameMac" xml:space="preserve">
+    <value>Create vm fail because there is same mac!</value>
+    <comment>Mac地址重复，创建失败！</comment>
+  </data>
+  <data name="CEMTS" xml:space="preserve">
+    <value>CEMTS</value>
+    <comment>智慧云教育</comment>
+  </data>
+  <data name="FcRemoteDisconnect" xml:space="preserve">
+    <value>Remote service is unvaliable</value>
+    <comment>无法连接远程服务器</comment>
+  </data>
+  <data name="InitDiskFail" xml:space="preserve">
+    <value>Init disk fail</value>
+    <comment>初始化硬盘信息失败</comment>
+  </data>
+  <data name="InitAuthFail" xml:space="preserve">
+    <value>Init auth fail!</value>
+    <comment>鉴权接口初始化失败！</comment>
+  </data>
+  <data name="PathLegthWrong" xml:space="preserve">
+    <value>The path selected is too long!</value>
+    <comment>路径过长,请重新选择！</comment>
+  </data>
+  <data name="ScreenReplyStop" xml:space="preserve">
+    <value>Stop Reply</value>
+    <comment>停止转播</comment>
+  </data>
+  <data name="Fixed" xml:space="preserve">
+    <value>Fixed</value>
+    <comment>固定</comment>
+  </data>
+  <data name="CloseVM" xml:space="preserve">
+    <value>CloseVM</value>
+    <comment>关闭虚拟机</comment>
+  </data>
+  <data name="ScreenCapWithNetPlay" xml:space="preserve">
+    <value>You can't use screen capture when netplaying!</value>
+    <comment>正在播放网络影院，无法录制屏幕！</comment>
+  </data>
+  <data name="ScreenResolution" xml:space="preserve">
+    <value>ScreenResolution:</value>
+    <comment>广播分辨率</comment>
+  </data>
+  <data name="FileNameTooLong" xml:space="preserve">
+    <value>Sure to ignore the files that name length over and go on?</value>
+    <comment>文件名过长，是否忽略继续添加？</comment>
+  </data>
+  <data name="ResolutionChangeWhenBroadcast" xml:space="preserve">
+    <value>Please restart broadcast because resolution has changed!</value>
+    <comment>屏幕分辨率已更改，请重新开启屏幕广播！</comment>
+  </data>
+  <data name="SignInWithNoVms" xml:space="preserve">
+    <value>You can use signin because there is no vm online!</value>
+    <comment>无虚拟机上线,无法使用电子签到!</comment>
+  </data>
+  <data name="OverClass" xml:space="preserve">
+    <value>OverClass</value>
+    <comment>下  课</comment>
+  </data>
+  <data name="StartClass" xml:space="preserve">
+    <value>StartClass</value>
+    <comment>上  课</comment>
+  </data>
+  <data name="TaskList" xml:space="preserve">
+    <value>TaskList</value>
+    <comment>任务列表</comment>
+  </data>
+  <data name="SelectClassTemplate" xml:space="preserve">
+    <value>Please select the class template！</value>
+    <comment>请先选择课程模板！</comment>
+  </data>
+  <data name="ThereIsNoVms" xml:space="preserve">
+    <value>The classroom has no vms on calss！</value>
+    <comment>本教室无虚拟机正在上课！</comment>
+  </data>
+  <data name="ClassStatus" xml:space="preserve">
+    <value>Status:</value>
+    <comment>状态：</comment>
+  </data>
+  <data name="OffClass" xml:space="preserve">
+    <value>OffClass</value>
+    <comment>未上课</comment>
+  </data>
+  <data name="OnClass" xml:space="preserve">
+    <value>OnClass</value>
+    <comment>上课中</comment>
+  </data>
+  <data name="ChangeClassTemplate" xml:space="preserve">
+    <value>Sure to change class template?</value>
+    <comment>是否切换课程模板？</comment>
+  </data>
+  <data name="ErrorLicence" xml:space="preserve">
+    <value>Licence content error!</value>
+    <comment>授权文件内容错误，请联系软件开发商！</comment>
+  </data>
+  <data name="MachineCodeError" xml:space="preserve">
+    <value>MachineCode error!</value>
+    <comment>机器码不匹配，请联系软件开发商！</comment>
+  </data>
+  <data name="ReturnNormal" xml:space="preserve">
+    <value>Return normal size</value>
+    <comment>向下还原</comment>
+  </data>
+  <data name="Exam" xml:space="preserve">
+    <value>OnlineExam</value>
+    <comment>在线考试</comment>
+  </data>
+  <data name="ExamSetting" xml:space="preserve">
+    <value>ExamSetting</value>
+    <comment>在线考试试题设置</comment>
+  </data>
+  <data name="InitilizeFail" xml:space="preserve">
+    <value>Initilize fail,please restart the software!</value>
+    <comment>初始化失败，请重启软件！</comment>
+  </data>
+  <data name="FilterConfigFileIsError" xml:space="preserve">
+    <value>The filter file is broken,please restart the software to recovery!</value>
+    <comment>检测到过滤文件被破坏，需重启软件重置恢复！</comment>
+  </data>
+  <data name="FuncConfigFileIsError" xml:space="preserve">
+    <value>The function file is broken,please restart the software to recovery!</value>
+    <comment>检测到功能配置文件被破坏，是否重置恢复？</comment>
+  </data>
+  <data name="ServiceConfigFileIsError" xml:space="preserve">
+    <value>The service file is broken,please restart the software to recovery！</value>
+    <comment>检测到服务器配置文件被破坏，请重启软件重置恢复！</comment>
+  </data>
+  <data name="TerminalConfigFileIsError" xml:space="preserve">
+    <value>The terminal file is broken,please restart the software and resort all terminals!</value>
+    <comment>检测到终端记录文件被破坏，需重启软件恢复并重新进行编号!</comment>
+  </data>
+  <data name="Insert" xml:space="preserve">
+    <value>Insert</value>
+    <comment>增加</comment>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result</value>
+    <comment>结果</comment>
+  </data>
+  <data name="SameIPAdded" xml:space="preserve">
+    <value>The IP is added!</value>
+    <comment>已添加该IP的终端！</comment>
+  </data>
+  <data name="AddTCNullIP" xml:space="preserve">
+    <value>Add ip is empty!</value>
+    <comment>加入终端IP为空</comment>
+  </data>
+  <data name="AddTCNullNumber" xml:space="preserve">
+    <value>Add number is empty!</value>
+    <comment>加入终端编号为空</comment>
+  </data>
+  <data name="ScreenReplyError" xml:space="preserve">
+    <value>Screen reply open error,please try again!</value>
+    <comment>屏幕转播开启播放器异常，请重试！</comment>
+  </data>
+  <data name="FileSubmitLowSpace" xml:space="preserve">
+    <value>File submit insufficient disk space!</value>
+    <comment>作业提交磁盘空间不够</comment>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+    <comment>文件</comment>
+  </data>
+  <data name="ExamPaper" xml:space="preserve">
+    <value>ExamPaper</value>
+    <comment>试卷</comment>
+  </data>
+  <data name="Scantron" xml:space="preserve">
+    <value>Scantron</value>
+    <comment>答题卡</comment>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>Minute</value>
+    <comment>分钟</comment>
+  </data>
+  <data name="ExamPaperPath" xml:space="preserve">
+    <value>Exam paper path：</value>
+    <comment>试卷路径：</comment>
+  </data>
+  <data name="ExamTime" xml:space="preserve">
+    <value>ExamTime：</value>
+    <comment>考试时间：</comment>
+  </data>
+  <data name="DocFileFilter" xml:space="preserve">
+    <value>Word Documents(*.doc;*.docx)|*.doc;*.docx</value>
+    <comment>Word文档(*.doc;*.docx)|*.doc;*.docx</comment>
+  </data>
+  <data name="ExamTimeError" xml:space="preserve">
+    <value>Please input legal time!</value>
+    <comment>请输入合法数字</comment>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+    <comment>警告</comment>
+  </data>
+  <data name="Judgement" xml:space="preserve">
+    <value>Judgement</value>
+    <comment>判断题</comment>
+  </data>
+  <data name="MultipleChoice" xml:space="preserve">
+    <value>MultipleChoice</value>
+    <comment>多选题</comment>
+  </data>
+  <data name="SingleChoice" xml:space="preserve">
+    <value>SingleChoice</value>
+    <comment>单选题</comment>
+  </data>
+  <data name="MaxSelect" xml:space="preserve">
+    <value>MaxSelect：</value>
+    <comment>最大题项：</comment>
+  </data>
+  <data name="QuestionNumber" xml:space="preserve">
+    <value>QuestionNumber：</value>
+    <comment>题数：</comment>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Score：</value>
+    <comment>分数：</comment>
+  </data>
+  <data name="InputNumberError" xml:space="preserve">
+    <value>Please input number less than 100!</value>
+    <comment>输入值不能超过100！</comment>
+  </data>
+  <data name="AddNumberError" xml:space="preserve">
+    <value>Add number is less than 1000!</value>
+    <comment>加入编号过大！</comment>
+  </data>
+  <data name="SetPaperPath" xml:space="preserve">
+    <value>Please select paper path!</value>
+    <comment>请先设置试卷路径</comment>
+  </data>
+  <data name="SetPaperTime" xml:space="preserve">
+    <value>Please set exam time！</value>
+    <comment>请设置考试时间！</comment>
+  </data>
+  <data name="SetQuestion" xml:space="preserve">
+    <value>Please set question kard</value>
+    <comment>请先设置答题卡</comment>
+  </data>
+  <data name="SingleChoiceSelectNull" xml:space="preserve">
+    <value>Please set single choice answer!</value>
+    <comment>请先设置单选题答案！</comment>
+  </data>
+  <data name="JudgeAnswerNull" xml:space="preserve">
+    <value>Please set judgement answer!</value>
+    <comment>请先设置判断题答案！</comment>
+  </data>
+  <data name="MultipleChoiceAnswerNull" xml:space="preserve">
+    <value>Please set multiple choice answer!</value>
+    <comment>请先设置多选题答案！</comment>
+  </data>
+  <data name="EditPaper" xml:space="preserve">
+    <value>EditPaper</value>
+    <comment>修改试卷</comment>
+  </data>
+  <data name="StartExam" xml:space="preserve">
+    <value>StartExam</value>
+    <comment>开始考试</comment>
+  </data>
+  <data name="RightAnswer" xml:space="preserve">
+    <value>RightAnswer：</value>
+    <comment>正确答案：</comment>
+  </data>
+  <data name="StudentName" xml:space="preserve">
+    <value>StudentName：</value>
+    <comment>姓名</comment>
+  </data>
+  <data name="StudentNumber" xml:space="preserve">
+    <value>StudentNumber：</value>
+    <comment>学号</comment>
+  </data>
+  <data name="HandExam" xml:space="preserve">
+    <value>HandExam</value>
+    <comment>交卷</comment>
+  </data>
+  <data name="GotScore" xml:space="preserve">
+    <value>Score：</value>
+    <comment>得分：</comment>
+  </data>
+  <data name="AppMes" xml:space="preserve">
+    <value>Some of your applications have been banned.</value>
+    <comment>您的某些应用已被禁止运行</comment>
+  </data>
+  <data name="CanotConnect" xml:space="preserve">
+    <value>Unable to connect to the remote server!</value>
+    <comment>无法连接远程服务器！</comment>
+  </data>
+  <data name="CeAppMes" xml:space="preserve">
+    <value>Has canceled the ban on your application</value>
+    <comment>已取消禁止您的应用</comment>
+  </data>
+  <data name="CeMouseMes" xml:space="preserve">
+    <value>You can use your mouse and keyboard.</value>
+    <comment>你可以使用你的键鼠了</comment>
+  </data>
+  <data name="CeNetMess" xml:space="preserve">
+    <value>Has canceled your ban on the Internet</value>
+    <comment>已取消您的禁止上网</comment>
+  </data>
+  <data name="CeUsbMes" xml:space="preserve">
+    <value>You can reuse your USB interface</value>
+    <comment>您可重新使用您的USB接口</comment>
+  </data>
+  <data name="ChangeLang" xml:space="preserve">
+    <value>switch language</value>
+    <comment>切换语言</comment>
+  </data>
+  <data name="Check2" xml:space="preserve">
+    <value>Check</value>
+    <comment>查看</comment>
+  </data>
+  <data name="ClinetName" xml:space="preserve">
+    <value>Zhi Huiyun Education</value>
+    <comment>智慧云教育</comment>
+  </data>
+  <data name="CloudUriNull" xml:space="preserve">
+    <value>Cloud uri is null!</value>
+    <comment>我的云盘地址为空！</comment>
+  </data>
+  <data name="ExitMessage" xml:space="preserve">
+    <value>Please enter the password to exit!</value>
+    <comment>请输入密码进行退出！</comment>
+  </data>
+  <data name="FileDistributeSetPathFail" xml:space="preserve">
+    <value>File receive rgist path fail！</value>
+    <comment>文件分发合成路径失败！</comment>
+  </data>
+  <data name="FileLost" xml:space="preserve">
+    <value>FileLost</value>
+    <comment>找不到文件</comment>
+  </data>
+  <data name="FileReceiveExit" xml:space="preserve">
+    <value>You are submitting your file, do you want to quit?</value>
+    <comment>您正在提交文件，是否退出？</comment>
+  </data>
+  <data name="FileSubmitCreateFail" xml:space="preserve">
+    <value>File submit create faile,please try agagin!</value>
+    <comment>连接失败，请重新打开作业提交界面！</comment>
+  </data>
+  <data name="FileSubStart" xml:space="preserve">
+    <value>You can submit file now!</value>
+    <comment>您可以进行作业提交了</comment>
+  </data>
+  <data name="HandUp" xml:space="preserve">
+    <value>HandUp</value>
+    <comment>举手</comment>
+  </data>
+  <data name="HomeworkSpaceUriNull" xml:space="preserve">
+    <value>Homework space uri is null!</value>
+    <comment>作业空间地址为空！</comment>
+  </data>
+  <data name="HomeworkSpase" xml:space="preserve">
+    <value>Operating space</value>
+    <comment>作业空间</comment>
+  </data>
+  <data name="LanguageSeting" xml:space="preserve">
+    <value>Language Seting</value>
+    <comment>语言设置</comment>
+  </data>
+  <data name="LoginPage" xml:space="preserve">
+    <value>Login</value>
+    <comment>登  录</comment>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+    <comment>注  销</comment>
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>Max file name must less than</value>
+    <comment>文件名最大长度不能超过</comment>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>message</value>
+    <comment>消息</comment>
+  </data>
+  <data name="MessageDlg" xml:space="preserve">
+    <value>Message notification</value>
+    <comment>消息通知</comment>
+  </data>
+  <data name="MouseMes" xml:space="preserve">
+    <value>Your keyboard and mouse have been banned.</value>
+    <comment>您的键盘鼠标已被禁止使用</comment>
+  </data>
+  <data name="NetConfig" xml:space="preserve">
+    <value>Network settings</value>
+    <comment>网络设置</comment>
+  </data>
+  <data name="NetMess" xml:space="preserve">
+    <value>You have been barred from the Internet</value>
+    <comment>您已被禁止上网</comment>
+  </data>
+  <data name="NullPassword" xml:space="preserve">
+    <value>Account or password is empty!</value>
+    <comment>账号或密码为空！</comment>
+  </data>
+  <data name="NullStudentNumber" xml:space="preserve">
+    <value>Null student number！</value>
+    <comment>学号不能为空！</comment>
+  </data>
+  <data name="OnlineTestUriNull" xml:space="preserve">
+    <value>OnlineTest uri is null!</value>
+    <comment>在线测试地址为空！</comment>
+  </data>
+  <data name="PwdError" xml:space="preserve">
+    <value>Password error!</value>
+    <comment>密码错误！</comment>
+  </data>
+  <data name="ResoursShare" xml:space="preserve">
+    <value>resource sharing</value>
+    <comment>资源共享</comment>
+  </data>
+  <data name="RestartHdpClient" xml:space="preserve">
+    <value>Please restart HDP Client！</value>
+    <comment>如果虚拟机依旧不能上线，请重启HDPClient！</comment>
+  </data>
+  <data name="RestartSoft" xml:space="preserve">
+    <value>Create socket link fail,restart the software!</value>
+    <comment>检测到连续创建套接字连接失败，自动重启软件</comment>
+  </data>
+  <data name="SendMessageFalse" xml:space="preserve">
+    <value>Send sign in information failed</value>
+    <comment>发送签到信息失败</comment>
+  </data>
+  <data name="ServerAddress" xml:space="preserve">
+    <value>Service address:</value>
+    <comment>服务地址:</comment>
+  </data>
+  <data name="SignFail" xml:space="preserve">
+    <value>Sign in failure</value>
+    <comment>签到失败</comment>
+  </data>
+  <data name="SignInHeader" xml:space="preserve">
+    <value>Electronic attendance</value>
+    <comment>电子签到</comment>
+  </data>
+  <data name="SignSec" xml:space="preserve">
+    <value>Sign in success</value>
+    <comment>签到成功</comment>
+  </data>
+  <data name="SureExit" xml:space="preserve">
+    <value>Confirm exit</value>
+    <comment>确认退出</comment>
+  </data>
+  <data name="TeacherCheckYou" xml:space="preserve">
+    <value>The teacher responded to you!</value>
+    <comment>教师回应了你！</comment>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Verification</value>
+    <comment>验证</comment>
+  </data>
+  <data name="UsbMes" xml:space="preserve">
+    <value>Your USB interface has been disabled.</value>
+    <comment>您的USB接口已被禁用</comment>
+  </data>
+  <data name="VerifyFirst" xml:space="preserve">
+    <value>Please verify the server address!</value>
+    <comment>请先验证服务器地址！</comment>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Zhi Huiyun education V3.0</value>
+    <comment>智慧云教育 V3.0</comment>
+  </data>
+  <data name="NameNull" xml:space="preserve">
+    <value>Name is null !</value>
+    <comment>姓名不能为空！</comment>
+  </data>
+  <data name="QuitExam" xml:space="preserve">
+    <value>You are on examing,sure to quit?</value>
+    <comment>当前正在进行在线考试，是否确认退出？</comment>
+  </data>
+  <data name="FileSubmitNotOnline" xml:space="preserve">
+    <value>You can't use filesubmit because vm is offline!</value>
+    <comment>当前虚拟机未上线，无法使用作业提交</comment>
+  </data>
+  <data name="Percent" xml:space="preserve">
+    <value>Percent</value>
+    <comment>进度</comment>
+  </data>
+  <data name="VMOffline" xml:space="preserve">
+    <value>Vm is offline!</value>
+    <comment>虚拟机未上线</comment>
+  </data>
+  <data name="VMOfflined" xml:space="preserve">
+    <value>VM is offline!</value>
+    <comment>虚拟机已下线</comment>
+  </data>
+  <data name="VMOnline" xml:space="preserve">
+    <value>VM is online!</value>
+    <comment>已发起虚拟机上线</comment>
+  </data>
+  <data name="ExamResult" xml:space="preserve">
+    <value>ExamResult</value>
+    <comment>考试结果</comment>
+  </data>
+  <data name="Scores" xml:space="preserve">
+    <value>Scores</value>
+    <comment>成绩</comment>
+  </data>
+  <data name="AboutMenu" xml:space="preserve">
+    <value>About</value>
+    <comment>关于</comment>
+  </data>
+  <data name="ExitMenu" xml:space="preserve">
+    <value>Exit</value>
+    <comment>退出</comment>
+  </data>
+  <data name="OfficeUninstalled" xml:space="preserve">
+    <value>Detect there is no office 2010 or more version!</value>
+    <comment>检测到本机可能未安装Office2010以及更高版本!</comment>
+  </data>
+  <data name="NullStudentPapers" xml:space="preserve">
+    <value>There is no paper result !</value>
+    <comment>当前无考试成绩，无法导出！</comment>
+  </data>
+  <data name="CanForbidStudentApp" xml:space="preserve">
+    <value>Can't forbid student app!</value>
+    <comment>不能禁止学生端应用</comment>
+  </data>
+  <data name="ExportSuccess" xml:space="preserve">
+    <value>Export success!</value>
+    <comment>导出成功！</comment>
+  </data>
+  <data name="AddNoTC" xml:space="preserve">
+    <value>There is no tc to add</value>
+    <comment>没有待加入终端</comment>
+  </data>
+  <data name="ConfigVmFail" xml:space="preserve">
+    <value>Config vm information fail</value>
+    <comment>根据模板配置虚拟机信息失败</comment>
+  </data>
+  <data name="NullTemplateVm" xml:space="preserve">
+    <value>There is no templet vm</value>
+    <comment>未查询到该模板虚拟机</comment>
+  </data>
+  <data name="TemplateHostNull" xml:space="preserve">
+    <value>Can't find host information</value>
+    <comment>未查询到模板所在主机信息</comment>
+  </data>
+  <data name="InitVmInstanceFail" xml:space="preserve">
+    <value>Failed to init vm instance</value>
+    <comment>初始化FC虚拟机实例失败</comment>
+  </data>
+  <data name="Tooltip" xml:space="preserve">
+    <value>Tooltip</value>
+    <comment>提示</comment>
+  </data>
+  <data name="InitCommFail" xml:space="preserve">
+    <value>Init comm instance fail</value>
+    <comment>初始化通用接口实例失败</comment>
+  </data>
+  <data name="InitHostFail" xml:space="preserve">
+    <value>Init host instance fail</value>
+    <comment>初始化主机实例失败</comment>
+  </data>
+  <data name="InitSiteUrlFail" xml:space="preserve">
+    <value>Init site url fail</value>
+    <comment>初始化站点信息失败</comment>
+  </data>
+  <data name="InitTaskNull" xml:space="preserve">
+    <value>Init task instance fail</value>
+    <comment>初始化任务实例失败</comment>
+  </data>
+  <data name="InitVmNull" xml:space="preserve">
+    <value>Init vm instance fail</value>
+    <comment>初始化虚拟机实例失败</comment>
+  </data>
+  <data name="CurrentTempletRunning" xml:space="preserve">
+    <value>Current templet vm is running,do you want to create again?</value>
+    <comment>当前模板的虚拟机正在运行，是否重新创建？</comment>
+  </data>
+  <data name="RunningVmNull" xml:space="preserve">
+    <value>There is no running vms !</value>
+    <comment>当前无本教室的虚拟机运行</comment>
+  </data>
+  <data name="SelectedTempletNull" xml:space="preserve">
+    <value>There is no class templet selected</value>
+    <comment>当前未选择任何课程模板</comment>
+  </data>
+  <data name="CurrentStatus" xml:space="preserve">
+    <value>CurrentStatus：</value>
+    <comment>当前状态：</comment>
+  </data>
+  <data name="RunningVm" xml:space="preserve">
+    <value>RunningVM：</value>
+    <comment>虚拟机：</comment>
+  </data>
+  <data name="LackOfMemory" xml:space="preserve">
+    <value>There is no enough memory,do you want to select another receive path?</value>
+    <comment>剩余空间不足，是否选用其他路径接收文件?</comment>
+  </data>
+  <data name="FileSendSuccess" xml:space="preserve">
+    <value>File send success</value>
+    <comment>文件发送成功</comment>
+  </data>
+  <data name="FileSendUnknownError" xml:space="preserve">
+    <value>There is an anknown error when client receive file!</value>
+    <comment>文件分发客户端发生未知错误</comment>
+  </data>
+  <data name="OutOfMemory" xml:space="preserve">
+    <value>There is no enough memory</value>
+    <comment>剩余空间不足</comment>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>ClearAll</value>
+    <comment>清除全部</comment>
+  </data>
+</root>
