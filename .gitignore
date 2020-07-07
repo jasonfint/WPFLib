@@ -3,3 +3,7 @@
 ################################################################################
 
 /LanguageLocalizationHelper/bin/x86/Debug
+/LanguageLocalizationHelper/obj/x86/Debug
+/WPF.TEST/bin/Debug
+/WPF日常例子/.vs/WPF日常例子/v15
+/WPF日常例子/obj/Release
