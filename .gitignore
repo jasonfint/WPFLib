@@ -2,8 +2,19 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/LanguageLocalizationHelper/bin/x86/Debug
-/LanguageLocalizationHelper/obj/x86/Debug
-/WPF.TEST/bin/Debug
-/WPF日常例子/.vs/WPF日常例子/v15
-/WPF日常例子/obj/Release
+/WPF日常例子/bin
+/WPF日常例子/obj
+/WPF.TEST/bin
+/WPF.TEST/obj
+/TreeViewDemo/bin
+/TreeViewDemo/obj
+/MultimediaTimer/HighPrecisionTimer/bin
+/MultimediaTimer/HighPrecisionTimer/obj
+/MultimediaTimer/MultimediaTimer/bin
+/MultimediaTimer/MultimediaTimer/obj
+/LanguageLocalizationHelper/bin
+/LanguageLocalizationHelper/obj
+/ExampleBrowser/bin
+/ExampleBrowser/obj
+/AsyncLoadLargeNumberImages/bin
+/AsyncLoadLargeNumberImages/obj
