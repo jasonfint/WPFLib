@@ -24,3 +24,4 @@ G:\WPFDemos\WPF.TEST\obj\Debug\zh-Hans\WPF.TEST.resources.dll
 G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST.csproj.CopyComplete
 G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST.exe
 G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST.pdb
+G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST.csprojAssemblyReference.cache

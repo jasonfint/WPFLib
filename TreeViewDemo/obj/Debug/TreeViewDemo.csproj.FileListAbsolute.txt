@@ -29,3 +29,4 @@ G:\WPFDemos\TreeViewDemo\obj\Debug\TreeViewDemo.csproj.GenerateResource.cache
 G:\WPFDemos\TreeViewDemo\obj\Debug\TreeViewDemo.csproj.CoreCompileInputs.cache
 G:\WPFDemos\TreeViewDemo\obj\Debug\TreeViewDemo.exe
 G:\WPFDemos\TreeViewDemo\obj\Debug\TreeViewDemo.pdb
+G:\WPFDemos\TreeViewDemo\obj\Debug\TreeViewDemo.csprojAssemblyReference.cache

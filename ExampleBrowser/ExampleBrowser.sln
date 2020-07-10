@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageLocalizationHelper"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.TEST", "..\WPF.TEST\WPF.TEST.csproj", "{94393985-BFF1-4ADA-8268-14BADA11B1B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighPrecisionTimer", "..\MultimediaTimer\HighPrecisionTimer\HighPrecisionTimer.csproj", "{6271749A-F14F-4C6B-8F5F-DD4434E44CF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultimediaTimer", "..\MultimediaTimer\MultimediaTimer\MultimediaTimer.csproj", "{839A0F64-5E9C-4C8C-A461-AC82C8012AC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,22 @@ Global
 		{94393985-BFF1-4ADA-8268-14BADA11B1B0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{94393985-BFF1-4ADA-8268-14BADA11B1B0}.Release|x86.ActiveCfg = Release|Any CPU
 		{94393985-BFF1-4ADA-8268-14BADA11B1B0}.Release|x86.Build.0 = Release|Any CPU
+		{6271749A-F14F-4C6B-8F5F-DD4434E44CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6271749A-F14F-4C6B-8F5F-DD4434E44CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6271749A-F14F-4C6B-8F5F-DD4434E44CF5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6271749A-F14F-4C6B-8F5F-DD4434E44CF5}.Debug|x86.Build.0 = Debug|Any CPU
+		{6271749A-F14F-4C6B-8F5F-DD4434E44CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6271749A-F14F-4C6B-8F5F-DD4434E44CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6271749A-F14F-4C6B-8F5F-DD4434E44CF5}.Release|x86.ActiveCfg = Release|Any CPU
+		{6271749A-F14F-4C6B-8F5F-DD4434E44CF5}.Release|x86.Build.0 = Release|Any CPU
+		{839A0F64-5E9C-4C8C-A461-AC82C8012AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839A0F64-5E9C-4C8C-A461-AC82C8012AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839A0F64-5E9C-4C8C-A461-AC82C8012AC6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{839A0F64-5E9C-4C8C-A461-AC82C8012AC6}.Debug|x86.Build.0 = Debug|Any CPU
+		{839A0F64-5E9C-4C8C-A461-AC82C8012AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839A0F64-5E9C-4C8C-A461-AC82C8012AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{839A0F64-5E9C-4C8C-A461-AC82C8012AC6}.Release|x86.ActiveCfg = Release|Any CPU
+		{839A0F64-5E9C-4C8C-A461-AC82C8012AC6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

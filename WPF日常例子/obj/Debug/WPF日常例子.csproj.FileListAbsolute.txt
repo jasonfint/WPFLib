@@ -256,3 +256,4 @@ G:\WPFDemos\WPF日常例子\bin\Debug\System.Memory.xml
 G:\WPFDemos\WPF日常例子\bin\Debug\System.Numerics.Vectors.xml
 G:\WPFDemos\WPF日常例子\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 G:\WPFDemos\WPF日常例子\obj\Debug\WPF日常例子.exe.config
+G:\WPFDemos\WPF日常例子\obj\Debug\WPF日常例子.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+G:\C#\MultimediaTimer\HighPrecisionTimer\bin\Debug\HighPrecisionTimer.dll
+G:\C#\MultimediaTimer\HighPrecisionTimer\bin\Debug\HighPrecisionTimer.pdb
+G:\C#\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.csprojAssemblyReference.cache
+G:\C#\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.csproj.CoreCompileInputs.cache
+G:\C#\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.dll
+G:\C#\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.pdb
+G:\计时器\高精度定时器\MultimediaTimer\HighPrecisionTimer\bin\Debug\HighPrecisionTimer.dll
+G:\计时器\高精度定时器\MultimediaTimer\HighPrecisionTimer\bin\Debug\HighPrecisionTimer.pdb
+G:\计时器\高精度定时器\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.csproj.CoreCompileInputs.cache
+G:\计时器\高精度定时器\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.dll
+G:\计时器\高精度定时器\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.pdb
