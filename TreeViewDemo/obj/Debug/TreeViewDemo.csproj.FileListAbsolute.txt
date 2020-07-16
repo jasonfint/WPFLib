@@ -17,6 +17,7 @@ C:\Users\User\source\repos\WPF日常例子\TreeViewDemo\obj\Debug\TreeViewDemo.c
 G:\WPFDemos\TreeViewDemo\bin\Debug\TreeViewDemo.exe.config
 G:\WPFDemos\TreeViewDemo\bin\Debug\TreeViewDemo.exe
 G:\WPFDemos\TreeViewDemo\bin\Debug\TreeViewDemo.pdb
+G:\WPFDemos\TreeViewDemo\obj\Debug\TreeViewDemo.csprojAssemblyReference.cache
 G:\WPFDemos\TreeViewDemo\obj\Debug\MainWindow.g.cs
 G:\WPFDemos\TreeViewDemo\obj\Debug\App.g.cs
 G:\WPFDemos\TreeViewDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs

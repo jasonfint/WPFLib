@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\AsyncLoadLargeNumberImages",
+    "\\ExampleBrowser",
     "\\WPF日常例子"
   ],
-  "SelectedNode": "\\WPF日常例子\\WPF日常例子.csproj",
+  "SelectedNode": "\\WPF日常例子",
   "PreviewInSolutionExplorer": false
 }
