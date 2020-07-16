@@ -18,3 +18,13 @@ G:\计时器\高精度定时器\MultimediaTimer\MultimediaTimer\obj\Debug\Multim
 G:\计时器\高精度定时器\MultimediaTimer\MultimediaTimer\obj\Debug\MultimediaTimer.csproj.CopyComplete
 G:\计时器\高精度定时器\MultimediaTimer\MultimediaTimer\obj\Debug\MultimediaTimer.exe
 G:\计时器\高精度定时器\MultimediaTimer\MultimediaTimer\obj\Debug\MultimediaTimer.pdb
+G:\WPFDemos\MultimediaTimer\MultimediaTimer\bin\Debug\MultimediaTimer.exe.config
+G:\WPFDemos\MultimediaTimer\MultimediaTimer\bin\Debug\MultimediaTimer.exe
+G:\WPFDemos\MultimediaTimer\MultimediaTimer\bin\Debug\MultimediaTimer.pdb
+G:\WPFDemos\MultimediaTimer\MultimediaTimer\bin\Debug\HighPrecisionTimer.dll
+G:\WPFDemos\MultimediaTimer\MultimediaTimer\bin\Debug\HighPrecisionTimer.pdb
+G:\WPFDemos\MultimediaTimer\MultimediaTimer\obj\Debug\MultimediaTimer.csproj.CoreCompileInputs.cache
+G:\WPFDemos\MultimediaTimer\MultimediaTimer\obj\Debug\MultimediaTimer.csproj.CopyComplete
+G:\WPFDemos\MultimediaTimer\MultimediaTimer\obj\Debug\MultimediaTimer.exe
+G:\WPFDemos\MultimediaTimer\MultimediaTimer\obj\Debug\MultimediaTimer.pdb
+G:\WPFDemos\MultimediaTimer\MultimediaTimer\obj\Debug\MultimediaTimer.csprojAssemblyReference.cache

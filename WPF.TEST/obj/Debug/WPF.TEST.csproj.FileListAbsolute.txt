@@ -1,8 +1,3 @@
-G:\WPFDemos\WPF.TEST\obj\Debug\MainWindow.g.cs
-G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST_MarkupCompile.cache
-G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST_MarkupCompile.lref
-G:\WPFDemos\WPF.TEST\obj\Debug\App.baml
-G:\WPFDemos\WPF.TEST\obj\Debug\App.g.cs
 G:\WPFDemos\WPF.TEST\bin\Debug\WPF.TEST.exe.config
 G:\WPFDemos\WPF.TEST\bin\Debug\WPF.TEST.exe
 G:\WPFDemos\WPF.TEST\bin\Debug\WPF.TEST.pdb
@@ -12,6 +7,11 @@ G:\WPFDemos\WPF.TEST\bin\Debug\LanguageLocalizationHelper.dll
 G:\WPFDemos\WPF.TEST\bin\Debug\LanguageLocalizationHelper.pdb
 G:\WPFDemos\WPF.TEST\bin\Debug\en-US\LanguageLocalizationHelper.resources.dll
 G:\WPFDemos\WPF.TEST\bin\Debug\zh-CN\LanguageLocalizationHelper.resources.dll
+G:\WPFDemos\WPF.TEST\obj\Debug\App.baml
+G:\WPFDemos\WPF.TEST\obj\Debug\MainWindow.g.cs
+G:\WPFDemos\WPF.TEST\obj\Debug\App.g.cs
+G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST_MarkupCompile.cache
+G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST_MarkupCompile.lref
 G:\WPFDemos\WPF.TEST\obj\Debug\MainWindow.baml
 G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST.g.resources
 G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST.Properties.Resources.resources
@@ -24,4 +24,3 @@ G:\WPFDemos\WPF.TEST\obj\Debug\zh-Hans\WPF.TEST.resources.dll
 G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST.csproj.CopyComplete
 G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST.exe
 G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST.pdb
-G:\WPFDemos\WPF.TEST\obj\Debug\WPF.TEST.csprojAssemblyReference.cache

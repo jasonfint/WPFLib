@@ -47,4 +47,3 @@ G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\AsyncLoadLargeNumberImages.cspr
 G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\AsyncLoadLargeNumberImages.csproj.CopyComplete
 G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\AsyncLoadLargeNumberImages.exe
 G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\AsyncLoadLargeNumberImages.pdb
-G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\AsyncLoadLargeNumberImages.csprojAssemblyReference.cache

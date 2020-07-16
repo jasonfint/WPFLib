@@ -9,3 +9,8 @@ G:\计时器\高精度定时器\MultimediaTimer\HighPrecisionTimer\bin\Debug\Hig
 G:\计时器\高精度定时器\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.csproj.CoreCompileInputs.cache
 G:\计时器\高精度定时器\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.dll
 G:\计时器\高精度定时器\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.pdb
+G:\WPFDemos\MultimediaTimer\HighPrecisionTimer\bin\Debug\HighPrecisionTimer.dll
+G:\WPFDemos\MultimediaTimer\HighPrecisionTimer\bin\Debug\HighPrecisionTimer.pdb
+G:\WPFDemos\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.csproj.CoreCompileInputs.cache
+G:\WPFDemos\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.dll
+G:\WPFDemos\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.pdb
