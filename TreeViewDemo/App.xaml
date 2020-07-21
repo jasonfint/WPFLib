@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:TreeViewDemo"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
+        <DataTemplate x:Key="TreeViewDataTemplate1">
+            <Grid/>
+        </DataTemplate>
+
     </Application.Resources>
 </Application>
