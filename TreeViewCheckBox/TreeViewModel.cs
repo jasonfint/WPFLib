@@ -80,8 +80,8 @@ namespace TreeViewCheckBox
         /// </summary>
         private void CheckParentCheckState()
         {
-            List<TreeViewModel> checkedItems = new List<TreeViewModel>();
-            string checkedNames = string.Empty;
+            //List<TreeViewModel> checkedItems = new List<TreeViewModel>();
+            //string checkedNames = string.Empty;
             bool? _currentState = this.IsChecked;
             bool? _firstState = null;
             for (int i = 0; i < this.Children.Count(); i++)

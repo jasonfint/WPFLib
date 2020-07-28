@@ -30,3 +30,4 @@ G:\WPFDemos\TreeViewCheckBox\obj\Debug\TreeViewCheckBox.csproj.CoreCompileInputs
 G:\WPFDemos\TreeViewCheckBox\obj\Debug\TreeViewCheckBox.csproj.CopyComplete
 G:\WPFDemos\TreeViewCheckBox\obj\Debug\TreeViewCheckBox.exe
 G:\WPFDemos\TreeViewCheckBox\obj\Debug\TreeViewCheckBox.pdb
+G:\WPFDemos\TreeViewCheckBox\obj\Debug\TreeViewCheckBox.csprojAssemblyReference.cache

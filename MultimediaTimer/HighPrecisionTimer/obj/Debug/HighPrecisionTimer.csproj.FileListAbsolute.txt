@@ -14,3 +14,4 @@ G:\WPFDemos\MultimediaTimer\HighPrecisionTimer\bin\Debug\HighPrecisionTimer.pdb
 G:\WPFDemos\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.csproj.CoreCompileInputs.cache
 G:\WPFDemos\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.dll
 G:\WPFDemos\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.pdb
+G:\WPFDemos\MultimediaTimer\HighPrecisionTimer\obj\Debug\HighPrecisionTimer.csprojAssemblyReference.cache

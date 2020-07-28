@@ -34,6 +34,7 @@ C:\Users\User\source\repos\WPF日常例子\AsyncLoadLargeNumberImages\obj\Debug\
 G:\WPFDemos\AsyncLoadLargeNumberImages\bin\Debug\AsyncLoadLargeNumberImages.exe.config
 G:\WPFDemos\AsyncLoadLargeNumberImages\bin\Debug\AsyncLoadLargeNumberImages.exe
 G:\WPFDemos\AsyncLoadLargeNumberImages\bin\Debug\AsyncLoadLargeNumberImages.pdb
+G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\AsyncLoadLargeNumberImages.csprojAssemblyReference.cache
 G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\MainWindow.g.cs
 G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\App.g.cs
 G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\GeneratedInternalTypeHelper.g.cs
@@ -47,4 +48,3 @@ G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\AsyncLoadLargeNumberImages.cspr
 G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\AsyncLoadLargeNumberImages.csproj.CopyComplete
 G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\AsyncLoadLargeNumberImages.exe
 G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\AsyncLoadLargeNumberImages.pdb
-G:\WPFDemos\AsyncLoadLargeNumberImages\obj\Debug\AsyncLoadLargeNumberImages.csprojAssemblyReference.cache
