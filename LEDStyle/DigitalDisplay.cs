@@ -19,8 +19,6 @@ namespace LEDStyle
         public const int HEIGHT_PIXELS = 18;
         #endregion
 
-
-
         #region Constructors
         static DigitalDisplay()
         {
@@ -29,9 +27,6 @@ namespace LEDStyle
             CreateDefPointsCoordinates();
             CreateSegmentsValuesList();
         }
-
-
-
         #endregion
 
 

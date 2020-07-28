@@ -5,9 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LEDStyle"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="150" Width="800">
     <Grid>
-        <local:DigitalMeter   Grid.Row="3" Grid.Column="1" Value="3000" BackColor="Black" ForeColor="Gold" FormatString="00000000.0" Signed="True" Margin="3"/>
-
+        <local:DigitalMeter  Value="1234567890" BackColor="Black" ForeColor="Gold" FormatString="00000000000.0" Signed="True" Margin="3"/>
     </Grid>
 </Window>
