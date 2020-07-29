@@ -13,7 +13,6 @@ namespace LEDStyle
 
     public class DigitalDisplay : FrameworkElement
     {
-
         #region Constants
         public const int WIDTH_PIXEL = 11;
         public const int HEIGHT_PIXELS = 18;
@@ -28,8 +27,6 @@ namespace LEDStyle
             CreateSegmentsValuesList();
         }
         #endregion
-
-
 
         #region Private Variables
 
@@ -60,8 +57,6 @@ namespace LEDStyle
 
 
         #endregion
-
-
 
         #region Dependency Properties
 
@@ -131,8 +126,6 @@ namespace LEDStyle
 
         #endregion
 
-
-
         #region Static Methods
 
 
@@ -147,111 +140,83 @@ namespace LEDStyle
 
         private static void CreateDefPointsCoordinates()
         {
-
             var pt = new Point(3F, 1F);
-
             DefPoints.Add(pt);
 
             pt = new Point(8F, 1F);
-
             DefPoints.Add(pt);
 
             pt = new Point(9F, 2F);
-
             DefPoints.Add(pt);
 
             pt = new Point(10F, 3F);
-
             DefPoints.Add(pt);
 
             pt = new Point(10F, 8F);
-
             DefPoints.Add(pt);
 
             pt = new Point(9F, 9F);
-
             DefPoints.Add(pt);
 
             pt = new Point(10F, 10F);
-
             DefPoints.Add(pt);
 
             pt = new Point(10F, 15F);
-
             DefPoints.Add(pt);
 
             pt = new Point(9F, 16F);
-
             DefPoints.Add(pt);
 
             pt = new Point(8F, 17F);
-
             DefPoints.Add(pt);
 
             pt = new Point(3F, 17F);
-
             DefPoints.Add(pt);
 
             pt = new Point(2F, 16F);
-
             DefPoints.Add(pt);
 
             pt = new Point(1F, 15F);
-
             DefPoints.Add(pt);
 
             pt = new Point(1F, 10F);
-
             DefPoints.Add(pt);
 
             pt = new Point(2F, 9F);
-
             DefPoints.Add(pt);
 
             pt = new Point(1F, 8F);
-
             DefPoints.Add(pt);
 
             pt = new Point(1F, 3F);
-
             DefPoints.Add(pt);
 
             pt = new Point(2F, 2F);
-
             DefPoints.Add(pt);
 
             pt = new Point(3F, 3F);
-
             DefPoints.Add(pt);
 
             pt = new Point(8F, 3F);
-
             DefPoints.Add(pt);
 
             pt = new Point(8F, 8F);
-
             DefPoints.Add(pt);
 
             pt = new Point(8F, 10F);
-
             DefPoints.Add(pt);
 
             pt = new Point(8F, 15F);
-
             DefPoints.Add(pt);
 
             pt = new Point(3F, 15F);
-
             DefPoints.Add(pt);
 
             pt = new Point(3F, 10F);
-
             DefPoints.Add(pt);
 
             pt = new Point(3F, 8F);
-
             DefPoints.Add(pt);
-
         }
 
 
@@ -269,127 +234,78 @@ namespace LEDStyle
             Segments.Clear();
             var s = new Segment();
             s.PointsIndexs[0] = 0;
-
             s.PointsIndexs[1] = 1;
-
             s.PointsIndexs[2] = 2;
-
             s.PointsIndexs[3] = 19;
-
             s.PointsIndexs[4] = 18;
-
             s.PointsIndexs[5] = 17;
-
             Segments.Add('A', s);
 
 
 
             s = new Segment();
-
             s.PointsIndexs[0] = 2;
-
             s.PointsIndexs[1] = 3;
-
             s.PointsIndexs[2] = 4;
-
             s.PointsIndexs[3] = 5;
-
             s.PointsIndexs[4] = 20;
-
             s.PointsIndexs[5] = 19;
-
             Segments.Add('B', s);
 
 
 
             s = new Segment();
-
             s.PointsIndexs[0] = 6;
-
             s.PointsIndexs[1] = 7;
-
             s.PointsIndexs[2] = 8;
-
             s.PointsIndexs[3] = 22;
-
             s.PointsIndexs[4] = 21;
-
             s.PointsIndexs[5] = 5;
-
             Segments.Add('C', s);
 
 
 
             s = new Segment();
-
             s.PointsIndexs[0] = 9;
-
             s.PointsIndexs[1] = 10;
-
             s.PointsIndexs[2] = 11;
-
             s.PointsIndexs[3] = 23;
-
             s.PointsIndexs[4] = 22;
-
             s.PointsIndexs[5] = 8;
-
             Segments.Add('D', s);
 
 
 
             s = new Segment();
-
             s.PointsIndexs[0] = 12;
-
             s.PointsIndexs[1] = 13;
-
             s.PointsIndexs[2] = 14;
-
             s.PointsIndexs[3] = 24;
-
             s.PointsIndexs[4] = 23;
-
             s.PointsIndexs[5] = 11;
-
             Segments.Add('E', s);
 
 
 
             s = new Segment();
-
             s.PointsIndexs[0] = 15;
-
             s.PointsIndexs[1] = 16;
-
             s.PointsIndexs[2] = 17;
-
             s.PointsIndexs[3] = 18;
-
             s.PointsIndexs[4] = 25;
-
             s.PointsIndexs[5] = 14;
-
             Segments.Add('F', s);
 
 
 
             s = new Segment();
-
             s.PointsIndexs[0] = 25;
-
             s.PointsIndexs[1] = 20;
-
             s.PointsIndexs[2] = 5;
-
             s.PointsIndexs[3] = 21;
-
             s.PointsIndexs[4] = 24;
-
             s.PointsIndexs[5] = 14;
-
             Segments.Add('G', s);
-
         }
 
 
@@ -404,167 +320,89 @@ namespace LEDStyle
 
         private static void CreateSegmentsValuesList()
         {
-
             var list = new SegmentsList { 'A', 'B', 'C', 'D', 'E', 'F' };
-
             ValuesSegments.Add(0, list);
 
-
-
             list = new SegmentsList { 'B', 'C' };
-
             ValuesSegments.Add(1, list);
 
-
-
             list = new SegmentsList { 'A', 'B', 'G', 'E', 'D' };
-
             ValuesSegments.Add(2, list);
 
-
-
             list = new SegmentsList { 'A', 'B', 'G', 'C', 'D' };
-
             ValuesSegments.Add(3, list);
 
-
-
             list = new SegmentsList { 'F', 'G', 'B', 'C' };
-
             ValuesSegments.Add(4, list);
 
-
-
             list = new SegmentsList { 'A', 'F', 'G', 'C', 'D' };
-
             ValuesSegments.Add(5, list);
 
-
-
             list = new SegmentsList { 'A', 'F', 'G', 'C', 'D', 'E' };
-
             ValuesSegments.Add(6, list);
 
-
-
             list = new SegmentsList { 'A', 'B', 'C' };
-
             ValuesSegments.Add(7, list);
 
-
-
             list = new SegmentsList { 'A', 'B', 'C', 'D', 'E', 'F', 'G' };
-
             ValuesSegments.Add(8, list);
 
-
-
             list = new SegmentsList { 'A', 'B', 'C', 'D', 'F', 'G' };
-
             ValuesSegments.Add(9, list);
 
-
-
             list = new SegmentsList { 'G' };
-
             ValuesSegments.Add('-', list);
 
-
-
             list = new SegmentsList { 'A', 'D', 'E', 'F', 'G' };
-
             ValuesSegments.Add('E', list);
-
         }
 
 
 
         #endregion
 
-
-
         #region Override Render Logic
 
 
 
         protected override void OnRender(DrawingContext drawingContext)
-
         {
-
             double rappW = ActualWidth / WIDTH_PIXEL;
-
             double rappH = ActualHeight / HEIGHT_PIXELS;
-
-
-
             var dotLocation = new Point
-
             {
-
                 X = DefPoints[7].X * rappW,
-
                 Y = DefPoints[8].Y * rappH +0.5 * rappH,
-
             };
-
             var dotRadiusX = rappW * .8;
-
             var dotRadiusY = rappH * .8;
-
-
-
             var pth = new StreamGeometry();
-
             using (var sc = pth.Open())
-
             {
-
                 foreach (Segment seg in Segments.Values)
-
                 {
-
                     for (var idx = 0; idx < seg.PointsIndexs.Length; idx++)
-
                     {
-
                         var tmpPoint =DefPoints[seg.PointsIndexs[idx]];
-
                         if (idx == 0)
-
                             sc.BeginFigure(new Point(tmpPoint.X * rappW,tmpPoint.Y * rappH), true, true);
-
                         else
-
                             sc.LineTo(new Point(tmpPoint.X * rappW,tmpPoint.Y * rappH), false, false);
-
                     }
-
                 }
-
             }
 
             pth.Freeze();
-
             drawingContext.DrawRectangle(new SolidColorBrush(BackColor), null, new Rect(0, 0, ActualWidth,ActualHeight));
-
             var offColor = ForeColor;
-
             offColor.A = 50;
-
             var offBrush = new SolidColorBrush(offColor);
-
-
             drawingContext.DrawGeometry(offBrush, null, pth);
-
-
             drawingContext.DrawEllipse(offBrush, null, dotLocation, dotRadiusX, dotRadiusY);
-
             if (ValuesSegments.Contains(Value))
             {
                 var pth2 = new StreamGeometry();
-
                 var list = ValuesSegments[Value];
-
                 using (var sc = pth2.Open())
                 {
                     foreach (var ch in list)
@@ -580,34 +418,19 @@ namespace LEDStyle
                             else
                                 sc.LineTo(new Point(tmpPoint.X * rappW,tmpPoint.Y * rappH), false, false);
                         }
-
                     }
-
                 }
 
                 pth2.Freeze();
-
                 var onBrush = new SolidColorBrush(ForeColor);
-
-
                 drawingContext.DrawGeometry(onBrush, null, pth2);
-
                 if (ShowDot)
-
-
                     drawingContext.DrawEllipse(onBrush, null, dotLocation, dotRadiusX, dotRadiusY);
-
             }
-
         }
 
-
-
         #endregion
-
     }
-
-
 
     #region Classes Used By DigitalDisplay
 
@@ -625,7 +448,6 @@ namespace LEDStyle
     {
         public Segment this[char ch]
         {
-
             set
             {
                 if (Dictionary.Contains(ch) == false)
@@ -656,31 +478,22 @@ namespace LEDStyle
 
 
         public bool Contains(char ch)
-
         {
-
             return Dictionary.Contains(ch);
-
         }
 
 
 
         public ICollection Values
-
         {
-
             get { return Dictionary.Values; }
-
         }
 
 
 
         public ICollection Keys
-
         {
-
             get { return Dictionary.Keys; }
-
         }
 
     }
@@ -694,15 +507,12 @@ namespace LEDStyle
     /// </summary>
 
     public class Segment
-
     {
         private readonly int[] points = new int[6];
-
         public int[] PointsIndexs
         {
             get { return points; }
         }
-
     }
 
 

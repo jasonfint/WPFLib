@@ -8,33 +8,18 @@ using System.Windows.Media;
 namespace LEDStyle
 {
     public class DigitalMeter : Canvas
-
     {
-
         private int numDigits;
 
-
-
         static DigitalMeter()
-
         {
-
-
             DefaultStyleKeyProperty.OverrideMetadata(typeof(DigitalMeter), new FrameworkPropertyMetadata(typeof(DigitalMeter)));
-
         }
-
-
 
         public DigitalMeter()
-
         {
-
             UpdateControls();
-
         }
-
-
 
         public static readonly DependencyProperty FormatStringProperty =
 
@@ -52,14 +37,10 @@ namespace LEDStyle
 
         }
 
-
-
         public static readonly DependencyProperty BackColorProperty =
 
             DependencyProperty.Register("BackColor", typeof(Color), typeof(DigitalMeter), new PropertyMetadata(Color.FromArgb(0, 0, 0, 0), OnColorPropertyChanged));
-
-
-
+               
         public Color BackColor
 
         {
@@ -76,25 +57,18 @@ namespace LEDStyle
 
         }
 
-
-
         public static readonly DependencyProperty ForeColorProperty =
             DependencyProperty.Register("ForeColor", typeof(Color), typeof(DigitalMeter), new PropertyMetadata(Color.FromRgb(255, 0, 0), OnColorPropertyChanged));
-
-
-
+                
         public Color ForeColor
         {
             get => (Color)GetValue(ForeColorProperty);
             set { SetValue(ForeColorProperty, value); }
         }
-
-
-
+               
         public static readonly DependencyProperty SignedProperty =
             DependencyProperty.Register("Signed", typeof(bool), typeof(DigitalMeter), new PropertyMetadata(false, OnLayoutPropertyChanged));
-
-
+        
 
         public bool Signed
         {
@@ -102,22 +76,17 @@ namespace LEDStyle
             set { SetValue(SignedProperty, value); }
 
         }
-
-
-
+               
         public static readonly DependencyProperty ValueProperty =
             DependencyProperty.Register("Value", typeof(double), typeof(DigitalMeter), new PropertyMetadata(default(double), OnValuePropertyChanged));
 
-
-
+        
         public double Value
         {
             get { return (double)GetValue(ValueProperty); }
             set { SetValue(ValueProperty, value); }
         }
-
-
-
+               
         private static void OnLayoutPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             if (!(d is DigitalMeter meters))
@@ -125,8 +94,7 @@ namespace LEDStyle
             meters.UpdateControls();
         }
 
-
-
+        
         private static void OnColorPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             var meters = d as DigitalMeter;
@@ -140,8 +108,7 @@ namespace LEDStyle
                 disp.ForeColor =meters.ForeColor;
             }
         }
-
-
+        
 
         private static void OnValuePropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
@@ -189,7 +156,6 @@ namespace LEDStyle
         }
 
 
-
         /// <summary>
 
         /// Update the controls of the meter
@@ -199,17 +165,12 @@ namespace LEDStyle
         private void UpdateControls()
         {
             string strFormat = FormatString;
-
             var count = strFormat.Length;
-
             var seps = new[] { '.', ',' };
-
             var sepIndex = strFormat.IndexOfAny(seps);
-
             if (sepIndex > 0)
             {
                 count--;
-                numDigits = count;
             }
 
             numDigits = count;
@@ -223,9 +184,7 @@ namespace LEDStyle
                     BackColor = BackColor,
                     ForeColor =ForeColor
                 };
-
                 Children.Add(disp);
-
             }
 
 
@@ -240,20 +199,16 @@ namespace LEDStyle
                 };
 
                 if (sepIndex - 1 == idx)
-
                     disp.ShowDot = true;
                 Children.Add(disp);
             }
             RepositionControls();
 
         }
-
-
+        
 
         /// <summary>
-
         /// Reposition of the digital displaies
-
         /// </summary>
 
         private void RepositionControls()
@@ -272,7 +227,6 @@ namespace LEDStyle
                 {
                     signFind = true;
                 }
-
                 else
                 {
                     if (d.Name.Contains("digit_"))
@@ -291,8 +245,7 @@ namespace LEDStyle
             }
             OnValuePropertyChanged(this, new DependencyPropertyChangedEventArgs(ValueProperty, 0,Value));
         }
-
-
+        
 
         protected override void OnRenderSizeChanged(SizeChangedInfo sizeInfo)
         {
@@ -301,7 +254,5 @@ namespace LEDStyle
         }
 
     }
-
-
 
 }

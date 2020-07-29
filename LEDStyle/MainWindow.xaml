@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="150" Width="800">
     <Grid>
-        <local:DigitalMeter  Value="1234567890" BackColor="Black" ForeColor="Gold" FormatString="00000000000.0" Signed="True" Margin="3"/>
+        <local:DigitalMeter  Value="123456780" BackColor="Black" ForeColor="Gold" FormatString="00000000000.0" Signed="True" Margin="3"/>
     </Grid>
 </Window>
