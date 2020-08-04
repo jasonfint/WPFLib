@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeViewCheckBox", "..\Tree
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEDStyle", "..\LEDStyle\LEDStyle.csproj", "{A28BD7B5-220A-4C1B-A900-5A4F08DD9966}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{273A51B1-7BFD-4C59-9C9C-E7280AC0D277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "图片翻转切换特效", "..\图片翻转切换特效\图片翻转切换特效.csproj", "{8FD5474B-2633-4532-88F1-7ABCAE42BA40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,9 +113,20 @@ Global
 		{A28BD7B5-220A-4C1B-A900-5A4F08DD9966}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A28BD7B5-220A-4C1B-A900-5A4F08DD9966}.Release|x86.ActiveCfg = Release|Any CPU
 		{A28BD7B5-220A-4C1B-A900-5A4F08DD9966}.Release|x86.Build.0 = Release|Any CPU
+		{8FD5474B-2633-4532-88F1-7ABCAE42BA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD5474B-2633-4532-88F1-7ABCAE42BA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD5474B-2633-4532-88F1-7ABCAE42BA40}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8FD5474B-2633-4532-88F1-7ABCAE42BA40}.Debug|x86.Build.0 = Debug|Any CPU
+		{8FD5474B-2633-4532-88F1-7ABCAE42BA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD5474B-2633-4532-88F1-7ABCAE42BA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD5474B-2633-4532-88F1-7ABCAE42BA40}.Release|x86.ActiveCfg = Release|Any CPU
+		{8FD5474B-2633-4532-88F1-7ABCAE42BA40}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FD5474B-2633-4532-88F1-7ABCAE42BA40} = {273A51B1-7BFD-4C59-9C9C-E7280AC0D277}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0C84A56E-A2C0-43E3-AB72-949B3433D5D6}
