@@ -8,7 +8,7 @@ using System.Windows.Markup;
 namespace WPF日常例子
 {
    
-        public class EumnDataMarkExtention : MarkupExtension
+        public class EnumDataMarkExtention : MarkupExtension
         {
             private Type _enumType;
 
@@ -34,12 +34,12 @@ namespace WPF日常例子
                 }
             }
 
-            public EumnDataMarkExtention()
+            public EnumDataMarkExtention()
             {
 
             }
 
-            public EumnDataMarkExtention(Type enumType)
+            public EnumDataMarkExtention(Type enumType)
             {
                 EnumType = enumType;
             }

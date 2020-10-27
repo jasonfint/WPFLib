@@ -256,3 +256,4 @@ G:\WPFDemos\WPF日常例子\obj\Debug\WPF日常例子.csproj.CoreCompileInputs.c
 G:\WPFDemos\WPF日常例子\obj\Debug\WPF日常例子.csproj.CopyComplete
 G:\WPFDemos\WPF日常例子\obj\Debug\WPF日常例子.exe
 G:\WPFDemos\WPF日常例子\obj\Debug\WPF日常例子.pdb
+G:\WPFDemos\WPF日常例子\obj\Debug\WPF日常例子.csprojAssemblyReference.cache

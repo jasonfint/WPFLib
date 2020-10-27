@@ -37,6 +37,7 @@
         </Border>
         <Button  Content="批量插入数据" Click="Button_Click"/>
         <Button  Content="生成GUID" Click="Button_Click_1"/>
+        <Button  Content="访问192.168.1.106网络路径" Click="Button_Click_2"/>
         <ComboBox
             MinWidth="150"
             HorizontalAlignment="Center"
@@ -46,7 +47,7 @@
         <ComboBox
                 MinWidth="150"
                 HorizontalAlignment="Center"
-                ItemsSource="{Binding Source={local:EumnDataMarkExtention {x:Type local:Status}}}">
+                ItemsSource="{Binding Source={local:EnumDataMarkExtention {x:Type local:Status}}}">
         </ComboBox>
         <ComboBox
                 MinWidth="150"
@@ -63,7 +64,7 @@
         <ComboBox
                 MinWidth="150"
                 HorizontalAlignment="Center"
-                ItemsSource="{Binding Source={local:EumnDataMarkExtention {x:Type local:StatusD}}}">
+                ItemsSource="{Binding Source={local:EnumDataMarkExtention {x:Type local:StatusD}}}">
         </ComboBox>
     </StackPanel>
 </Window>

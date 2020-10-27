@@ -115,10 +115,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="EnumAsArrayConverter.cs" />
-    <Compile Include="EnumDescriptionTypeConverter.cs" />
-    <Compile Include="EumnDataLib.cs" />
-    <Compile Include="EumnDataMarkExtention.cs" />
+    <Compile Include="NetworkDrive\AccessNetworkDrive.cs" />
+    <Compile Include="Eumn\EnumAsArrayConverter.cs" />
+    <Compile Include="Eumn\EnumDescriptionTypeConverter.cs" />
+    <Compile Include="Eumn\EnumDataLib.cs" />
+    <Compile Include="Eumn\EnumDataMarkExtention.cs" />
     <Compile Include="InputHelper.cs" />
     <Compile Include="SQLiteDBHelper.cs" />
     <Compile Include="WindowDraggingExtension.cs" />
@@ -176,6 +177,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets')" />

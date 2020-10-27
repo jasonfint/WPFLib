@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Data.SQLite;
+using System.IO;
+using System.Net;
 using System.Windows;
 
 
@@ -53,6 +55,65 @@ namespace WPF日常例子
                 Console.WriteLine(System.Guid.NewGuid().ToString("N"));
             }
         
+        }
+        ConnectToSharedFolder accessNetworkDrive;
+        public string networkPath = @"\\192.168.1.106\Version\AOIX";
+        NetworkCredential credentials = new NetworkCredential("zzm", "1234567");
+        public string myNetworkPath = string.Empty;
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            FileUpload(networkPath);
+        accessNetworkDrive =new  ConnectToSharedFolder(networkPath, credentials);
+        }
+        public void FileUpload(string UploadURL)
+        {
+            try
+            {
+                using (new ConnectToSharedFolder(networkPath, credentials))
+                {
+                    var fileList = Directory.GetFiles(networkPath);
+
+                    foreach (var item in fileList) { if (item.Contains("{ClientDocument}")) { myNetworkPath = item; } }
+
+                    myNetworkPath = myNetworkPath + UploadURL;
+
+                    //using (FileStream fileStream = File.Create(UploadURL, file.Length))
+                    //{
+                    //    await fileStream.WriteAsync(file, 0, file.Length);
+                    //    fileStream.Close();
+                    //}
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            //return obj;
+        }
+        public byte[] DownloadFileByte(string DownloadURL)
+        {
+            byte[] fileBytes = null;
+
+            using (new ConnectToSharedFolder(networkPath, credentials))
+            {
+                var fileList = Directory.GetDirectories(networkPath);
+
+                foreach (var item in fileList) { if (item.Contains("ClientDocuments")) { myNetworkPath = item; } }
+
+                myNetworkPath = myNetworkPath + DownloadURL;
+
+                try
+                {
+                    fileBytes = File.ReadAllBytes(myNetworkPath);
+                }
+                catch (Exception ex)
+                {
+                    string Message = ex.Message.ToString();
+                }
+            }
+
+            return fileBytes;
         }
 
         /*

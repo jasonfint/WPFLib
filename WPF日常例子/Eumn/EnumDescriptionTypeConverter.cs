@@ -18,6 +18,7 @@ namespace WPF日常例子
         {
             if (destinationType == typeof(string))
             {
+
                 if (null != value)
                 {
                     FieldInfo fi = value.GetType().GetField(value.ToString());
