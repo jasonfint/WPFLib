@@ -33,8 +33,8 @@ bld/
 
 /bin/Debug
 /obj/Debug
-bin\Debug
-obj\Debug
+\bin\Debug
+\obj\Debug
 /WPF.TEST/bin
 /WPF.TEST/obj
 /TreeViewDemo/bin
