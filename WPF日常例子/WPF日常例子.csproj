@@ -115,6 +115,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="EnumAsArrayConverter.cs" />
+    <Compile Include="EnumDescriptionTypeConverter.cs" />
+    <Compile Include="EumnDataLib.cs" />
+    <Compile Include="EumnDataMarkExtention.cs" />
     <Compile Include="InputHelper.cs" />
     <Compile Include="SQLiteDBHelper.cs" />
     <Compile Include="WindowDraggingExtension.cs" />

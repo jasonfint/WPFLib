@@ -27,6 +27,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{273A51
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "图片翻转切换特效", "..\图片翻转切换特效\图片翻转切换特效.csproj", "{8FD5474B-2633-4532-88F1-7ABCAE42BA40}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Word", "Word", "{1AF8D158-CF7C-40FF-979A-CFDFA1067670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfEmbeddedDocx", "..\WpfEmbeddedDocx\WpfEmbeddedDocx.csproj", "{83A4C6D2-6D48-4040-AB26-F13B8D397B8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Animation", "Animation", "{A3B9639A-5966-4A2A-8490-B68E751BCF24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarrySkyBasedOnCanvas", "..\StarrySkyBasedOnCanvas\StarrySkyBasedOnCanvas.csproj", "{C31AFE0F-2D74-4FC4-83FA-4916D18196D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataTypeLib", "DataTypeLib", "{A4F5D3CF-75BD-4B73-BCCE-9089C4EC30C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,12 +131,30 @@ Global
 		{8FD5474B-2633-4532-88F1-7ABCAE42BA40}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8FD5474B-2633-4532-88F1-7ABCAE42BA40}.Release|x86.ActiveCfg = Release|Any CPU
 		{8FD5474B-2633-4532-88F1-7ABCAE42BA40}.Release|x86.Build.0 = Release|Any CPU
+		{83A4C6D2-6D48-4040-AB26-F13B8D397B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A4C6D2-6D48-4040-AB26-F13B8D397B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A4C6D2-6D48-4040-AB26-F13B8D397B8C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{83A4C6D2-6D48-4040-AB26-F13B8D397B8C}.Debug|x86.Build.0 = Debug|Any CPU
+		{83A4C6D2-6D48-4040-AB26-F13B8D397B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A4C6D2-6D48-4040-AB26-F13B8D397B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A4C6D2-6D48-4040-AB26-F13B8D397B8C}.Release|x86.ActiveCfg = Release|Any CPU
+		{83A4C6D2-6D48-4040-AB26-F13B8D397B8C}.Release|x86.Build.0 = Release|Any CPU
+		{C31AFE0F-2D74-4FC4-83FA-4916D18196D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31AFE0F-2D74-4FC4-83FA-4916D18196D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31AFE0F-2D74-4FC4-83FA-4916D18196D1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C31AFE0F-2D74-4FC4-83FA-4916D18196D1}.Debug|x86.Build.0 = Debug|Any CPU
+		{C31AFE0F-2D74-4FC4-83FA-4916D18196D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31AFE0F-2D74-4FC4-83FA-4916D18196D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31AFE0F-2D74-4FC4-83FA-4916D18196D1}.Release|x86.ActiveCfg = Release|Any CPU
+		{C31AFE0F-2D74-4FC4-83FA-4916D18196D1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8FD5474B-2633-4532-88F1-7ABCAE42BA40} = {273A51B1-7BFD-4C59-9C9C-E7280AC0D277}
+		{83A4C6D2-6D48-4040-AB26-F13B8D397B8C} = {1AF8D158-CF7C-40FF-979A-CFDFA1067670}
+		{C31AFE0F-2D74-4FC4-83FA-4916D18196D1} = {A3B9639A-5966-4A2A-8490-B68E751BCF24}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0C84A56E-A2C0-43E3-AB72-949B3433D5D6}

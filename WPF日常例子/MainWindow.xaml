@@ -4,9 +4,31 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF日常例子"
+        xmlns:enumDataClass="clr-namespace:WPF日常例子"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
         Title="MainWindow" x:Name="CurrentWindow" Height="450" Width="800">
-    <Grid>
+    <Window.Resources>
+        <ObjectDataProvider
+            x:Key="DataFromEnum"
+            MethodName="GetValues"
+            ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="enumDataClass:Status">
+                </x:Type>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider
+            x:Key="DataFromEnumD"
+            MethodName="GetValues"
+            ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="enumDataClass:StatusD">
+                </x:Type>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>        
+    </Window.Resources>
+    <StackPanel>
         <Border x:Name="DraggingElement" Width="100" Height="100" Background="Gray">
             <local:WindowDraggingExtension.DragWindow>
                 <local:WindowDraggingExtension TargetWindow="{x:Reference CurrentWindow}" />
@@ -14,5 +36,29 @@
             <TextBlock x:Name="TextBlock" Margin="10,10,10,10" HorizontalAlignment="Center"></TextBlock>            
         </Border>
         <Button  Content="批量插入数据" Click="Button_Click"/>
-    </Grid>
+        <Button  Content="生成GUID" Click="Button_Click_1"/>
+        <ComboBox
+            MinWidth="150"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            ItemsSource="{Binding Source={StaticResource DataFromEnum}}">
+        </ComboBox>
+        <ComboBox
+                MinWidth="150"
+                HorizontalAlignment="Center"
+                ItemsSource="{Binding Source={local:EumnDataMarkExtention {x:Type local:Status}}}">
+        </ComboBox>
+        <ComboBox
+                MinWidth="150"
+                HorizontalAlignment="Center" 
+            SelectedItem="{x:Static local:StatusD.Horrible}">
+            <ComboBox.ItemsSource>
+                <Binding Source="{x:Type local:StatusD}" Mode="OneTime">
+                    <Binding.Converter>
+                        <local:EnumAsArrayConverter />
+                    </Binding.Converter>
+                </Binding>
+            </ComboBox.ItemsSource>
+        </ComboBox>
+    </StackPanel>
 </Window>

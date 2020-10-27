@@ -46,6 +46,15 @@ namespace WPF日常例子
 
         }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            for(int i=0;i<10;i++)
+            {
+                Console.WriteLine(System.Guid.NewGuid().ToString("N"));
+            }
+        
+        }
+
         /*
         using (DbConnection conn = factory.CreateConnection())
         {
