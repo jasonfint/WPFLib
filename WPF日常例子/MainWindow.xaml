@@ -60,5 +60,10 @@
                 </Binding>
             </ComboBox.ItemsSource>
         </ComboBox>
+        <ComboBox
+                MinWidth="150"
+                HorizontalAlignment="Center"
+                ItemsSource="{Binding Source={local:EumnDataMarkExtention {x:Type local:StatusD}}}">
+        </ComboBox>
     </StackPanel>
 </Window>

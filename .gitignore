@@ -31,8 +31,10 @@ bld/
 # Uncomment if you have tasks that create the
 
 
-/WPF日常例子/bin
-/WPF日常例子/obj
+/bin/Debug
+/obj/Debug
+bin\Debug
+obj\Debug
 /WPF.TEST/bin
 /WPF.TEST/obj
 /TreeViewDemo/bin
