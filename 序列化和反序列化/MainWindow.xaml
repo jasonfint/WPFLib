@@ -1,0 +1,21 @@
+﻿<Window x:Class="序列化和反序列化.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:序列化和反序列化"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <UniformGrid>
+        <Button Name="createData" Content="创建数据" Click="CreateData_Click" Height="200"/>
+        <Button Name="serialize" Content="序列化" Click="Serialize_Click" Height="200"/>
+        <Button Name="unserialize" Content="反序列化" Click="Unserialize_Click" Height="200"/>
+        <Button Name="xmlserialize" Content="xml序列化" Click="Xmlserialize_Click" Height="200"/>
+        <Button Name="xmlunserialize" Content="xml反序列化" Click="Xmlunserialize_Click" Height="200"/>
+        <Button Name="jasonserialize" Content="json序列化" Click="Jasonserialize_Click" Height="200"/>
+        <Button Name="jsonunserialize" Content="json反序列化" Click="Jsonunserialize_Click" Height="200"/>
+        <Button Name="streamwriter" Content="streamwriter" Click="Streamwriter_Click" Height="200"/>
+        <Button Name="protobuf" Content="谷歌序列化" Click="Protobuf_Click" Height="200"/>
+        <Button Name="deprotobuf" Content="谷歌反序列化" Click="Deprotobuf_Click" Height="200"/>
+    </UniformGrid>
+</Window>

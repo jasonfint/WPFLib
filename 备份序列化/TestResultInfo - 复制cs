@@ -1,0 +1,64 @@
+﻿using ProtoBuf;
+using System;
+using System.Collections.Generic;
+using System.Windows;
+
+using static 序列化和反序列化.RectTypeClass;
+
+namespace 序列化和反序列化
+{
+    [Serializable]
+    [ProtoContract]
+    public class TestResultInfo
+    {
+        public TestResultInfo()
+        { }
+        public ResultRect ResultRectInfo=new ResultRect();
+        public string Name="测试";
+        public ResultType RType=ResultType.错件;
+        public int x=32;
+        public int Y=90;
+        public int width=879;
+        public int Height=432;
+        public Point RotCenter = new Point(10, 50);
+        public int TotalRotAngle=270;
+        public int Angle=90;
+        public int subBoardId=342;
+        public int SequenceID=432;
+        public int SelectColors=432;
+        public int ImageBright=6;
+        public int ImageKey=56;
+        public Point SearchShift = new Point(101, 50);
+        public Point MarkShift = new Point(101, 510);
+        public Point CPUPinStaShfit = new Point(11, 510);
+        public double CPUPinStaAngleX=67.2;
+        public double CPUPinStaAngleY=45.0;
+        public int PinXShfit=6;
+        public int PinYShfit=8;
+        public string Item="测试呀12";
+        public string Target="目标呀";
+        public string Value="这是";
+        public ResultType Result=ResultType.露铜;
+        public int FovId=45;
+        public string TestTime=DateTime.Now.ToLongDateString();
+        public int ID=5423;
+        public string Model="模型1";
+        public string Code="编码";
+        public string Package="封装";
+        public string MountingName="Mo";
+        public string ComponentBarcode="232423";
+        public int ConfirmTimes=897;
+
+        public ResultType ConfirmResult=ResultType.开焊;
+        public Point DiffXy { get; set; } = new Point(234, 546);
+        public string Defectcode="212";
+        public string UserDefindConfirm="NG";
+        public bool CompelNG=true;
+        public string TargetResultType="目标结果";
+        public List<TestResultInfo> Subs = new List<TestResultInfo>();
+        public override string ToString()
+        {
+            return $"{ResultRectInfo.ToString()}{Name},{RType},{x},{Y},{width},{Height},{RotCenter.X},{RotCenter.Y},{TotalRotAngle},{Angle},{subBoardId},{SequenceID},{SelectColors},{ImageBright},{ImageKey},{SearchShift.X},{MarkShift.X},{CPUPinStaShfit.X},,{SearchShift.Y},{MarkShift.Y},{CPUPinStaShfit.Y},{CPUPinStaAngleX},{CPUPinStaAngleY},{PinXShfit},{PinYShfit},{Item},{Target},{Value},{Result},{FovId},{Model},{Code},{Package},{MountingName},{ComponentBarcode},{ConfirmTimes},{ConfirmResult},{DiffXy.X},{DiffXy.Y},{Defectcode},{UserDefindConfirm},{CompelNG},{TargetResultType}"; 
+        }
+    }
+}

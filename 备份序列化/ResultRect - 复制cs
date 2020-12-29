@@ -1,0 +1,40 @@
+﻿using ProtoBuf;
+using System;
+using System.Windows;
+using static 序列化和反序列化.RectTypeClass;
+
+namespace 序列化和反序列化
+{
+    [Serializable]
+    [ProtoContract]
+    public class ResultRect
+    {
+        public string Name { get; set; } = "Chip-01233-0605()";
+        public ResultType RType { get; set; } = ResultType.开焊;
+        public int X { get; set; } = 100;
+        public int Y { get; set; } = 200;
+        public int Width { get; set; } = 800;
+        public int Height { get; set; } = 900;
+        public Point RotCenter { get; set; } = new Point(10, 50);
+        public int TotalRotAngle { get; set; } = 100;
+        public int Angle { get; set; } = 90;
+        public int subBoardId { get; set; } = 0;
+        public int SequenceID { get; set; } = 3;
+        public int SelectColors { get; set; } = 1;
+
+        public int ImageBright { get; set; } = 1;
+        public int ImageKey { get; set; } = 9;
+        public Point SearchShift { get; set; } = new Point(100, 5120);
+        public Point MarkShift { get; set; } = new Point(70, 5120);
+        public Point CPUPinStaShfit { get; set; } = new Point(700, 5120);
+        public double CPUPinStaAnglex { get; set; } = 14.5;
+        public double CPUPinStaAngler { get; set; } = 14245.5;
+        public int PinXShfit { get; set; } = 14245;
+        public int PinYShfit { get; set; } = 145;
+        public override string ToString()
+        {
+            return $"{Name},{RType},{X},{Y},{Width},{Height},{RotCenter.X},{RotCenter.Y},{TotalRotAngle},{Angle},{subBoardId},{SequenceID},{SelectColors},{ImageBright},{ImageKey},{SearchShift.X},{SearchShift.Y},{MarkShift.X},{MarkShift.Y},{CPUPinStaShfit.X},{CPUPinStaShfit.Y},{CPUPinStaAnglex},{CPUPinStaAngler},{PinXShfit},{PinYShfit}";
+        }
+    }
+
+}

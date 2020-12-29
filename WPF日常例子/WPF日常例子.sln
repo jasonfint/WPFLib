@@ -37,6 +37,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarrySkyBasedOnCanvas", ".
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataTypeLib", "DataTypeLib", "{A4F5D3CF-75BD-4B73-BCCE-9089C4EC30C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "内存回收", "..\内存回收\内存回收.csproj", "{22D0A981-10A4-4668-9B36-5979A8A044E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriterWPFDemo", "StreamWriterWPFDemo\StreamWriterWPFDemo.csproj", "{A08EFE81-2B60-4FA8-8277-4A17FBFDDDD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "序列化和反序列化", "..\序列化和反序列化\序列化和反序列化.csproj", "{7A429367-F543-4075-864D-20FA6D25B689}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +153,30 @@ Global
 		{C31AFE0F-2D74-4FC4-83FA-4916D18196D1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C31AFE0F-2D74-4FC4-83FA-4916D18196D1}.Release|x86.ActiveCfg = Release|Any CPU
 		{C31AFE0F-2D74-4FC4-83FA-4916D18196D1}.Release|x86.Build.0 = Release|Any CPU
+		{22D0A981-10A4-4668-9B36-5979A8A044E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D0A981-10A4-4668-9B36-5979A8A044E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D0A981-10A4-4668-9B36-5979A8A044E5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{22D0A981-10A4-4668-9B36-5979A8A044E5}.Debug|x86.Build.0 = Debug|Any CPU
+		{22D0A981-10A4-4668-9B36-5979A8A044E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D0A981-10A4-4668-9B36-5979A8A044E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D0A981-10A4-4668-9B36-5979A8A044E5}.Release|x86.ActiveCfg = Release|Any CPU
+		{22D0A981-10A4-4668-9B36-5979A8A044E5}.Release|x86.Build.0 = Release|Any CPU
+		{A08EFE81-2B60-4FA8-8277-4A17FBFDDDD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08EFE81-2B60-4FA8-8277-4A17FBFDDDD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08EFE81-2B60-4FA8-8277-4A17FBFDDDD6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A08EFE81-2B60-4FA8-8277-4A17FBFDDDD6}.Debug|x86.Build.0 = Debug|Any CPU
+		{A08EFE81-2B60-4FA8-8277-4A17FBFDDDD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08EFE81-2B60-4FA8-8277-4A17FBFDDDD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08EFE81-2B60-4FA8-8277-4A17FBFDDDD6}.Release|x86.ActiveCfg = Release|Any CPU
+		{A08EFE81-2B60-4FA8-8277-4A17FBFDDDD6}.Release|x86.Build.0 = Release|Any CPU
+		{7A429367-F543-4075-864D-20FA6D25B689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A429367-F543-4075-864D-20FA6D25B689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A429367-F543-4075-864D-20FA6D25B689}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7A429367-F543-4075-864D-20FA6D25B689}.Debug|x86.Build.0 = Debug|Any CPU
+		{7A429367-F543-4075-864D-20FA6D25B689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A429367-F543-4075-864D-20FA6D25B689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A429367-F543-4075-864D-20FA6D25B689}.Release|x86.ActiveCfg = Release|Any CPU
+		{7A429367-F543-4075-864D-20FA6D25B689}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

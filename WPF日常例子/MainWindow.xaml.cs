@@ -57,8 +57,8 @@ namespace WPF日常例子
         
         }
         ConnectToSharedFolder accessNetworkDrive;
-        public string networkPath = @"\\192.168.1.106\Version\AOIX";
-        NetworkCredential credentials = new NetworkCredential("zzm", "1234567");
+        public string networkPath = @"\\192.168.1.182\";
+        NetworkCredential credentials = new NetworkCredential("Guest", "");
         public string myNetworkPath = string.Empty;
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
